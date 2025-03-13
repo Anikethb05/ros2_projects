@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_msg_srv/srv/AddThreeNums.srv
+// generated code does not contain a copyright notice
+
+
+module my_msg_srv {
+  module srv {
+    struct AddThreeNums_Request {
+      double a;
+
+      double b;
+
+      double c;
+    };
+    struct AddThreeNums_Response {
+      double sum;
+    };
+  };
+};

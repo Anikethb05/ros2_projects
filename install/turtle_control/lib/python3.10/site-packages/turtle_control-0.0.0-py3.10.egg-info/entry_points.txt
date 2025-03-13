@@ -1,0 +1,5 @@
+[console_scripts]
+pub_sub = turtle_control.pub_sub:main
+turtle_publisher = turtle_control.turtle_publisher:main
+turtle_subscriber = turtle_control.turtle_subscriber:main
+

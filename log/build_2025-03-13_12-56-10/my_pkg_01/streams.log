@@ -1,0 +1,45 @@
+[1.465s] Invoking command in '/home/aniketh05/my_ros2_ws/build/my_pkg_01': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_pkg_01/build
+[1.741s] running develop
+[1.789s] /home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[1.789s]   warnings.warn(
+[1.878s] Removing /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my-pkg-01.egg-link (link to .)
+[1.920s] Invoked command in '/home/aniketh05/my_ros2_ws/build/my_pkg_01' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_pkg_01/build
+[1.923s] Invoking command in '/home/aniketh05/my_ros2_ws/src/my_pkg_01': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pkg_01 build --build-base /home/aniketh05/my_ros2_ws/build/my_pkg_01/build install --record /home/aniketh05/my_ros2_ws/build/my_pkg_01/install.log --single-version-externally-managed install_data --force
+[2.145s] running egg_info
+[2.146s] writing ../../build/my_pkg_01/my_pkg_01.egg-info/PKG-INFO
+[2.146s] writing dependency_links to ../../build/my_pkg_01/my_pkg_01.egg-info/dependency_links.txt
+[2.146s] writing entry points to ../../build/my_pkg_01/my_pkg_01.egg-info/entry_points.txt
+[2.146s] writing requirements to ../../build/my_pkg_01/my_pkg_01.egg-info/requires.txt
+[2.147s] writing top-level names to ../../build/my_pkg_01/my_pkg_01.egg-info/top_level.txt
+[2.150s] reading manifest file '../../build/my_pkg_01/my_pkg_01.egg-info/SOURCES.txt'
+[2.152s] writing manifest file '../../build/my_pkg_01/my_pkg_01.egg-info/SOURCES.txt'
+[2.152s] running build
+[2.152s] running build_py
+[2.153s] running install
+[2.154s] running install_lib
+[2.156s] creating /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.156s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_01/build/lib/my_pkg_01/my_first_node.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.157s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_01/build/lib/my_pkg_01/pose_color_change.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.157s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_01/build/lib/my_pkg_01/practice_node.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.158s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_01/build/lib/my_pkg_01/__init__.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.158s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_01/build/lib/my_pkg_01/pub_node.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.159s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_01/build/lib/my_pkg_01/my_pub_node.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.159s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_01/build/lib/my_pkg_01/set_pen_client.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.161s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/my_first_node.py to my_first_node.cpython-310.pyc
+[2.161s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/pose_color_change.py to pose_color_change.cpython-310.pyc
+[2.162s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/practice_node.py to practice_node.cpython-310.pyc
+[2.162s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/__init__.py to __init__.cpython-310.pyc
+[2.163s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/pub_node.py to pub_node.cpython-310.pyc
+[2.163s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/my_pub_node.py to my_pub_node.cpython-310.pyc
+[2.164s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/set_pen_client.py to set_pen_client.cpython-310.pyc
+[2.165s] running install_data
+[2.165s] copying resource/my_pkg_01 -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/share/ament_index/resource_index/packages
+[2.166s] copying package.xml -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/share/my_pkg_01
+[2.167s] running install_egg_info
+[2.171s] Copying ../../build/my_pkg_01/my_pkg_01.egg-info to /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01-0.0.0-py3.10.egg-info
+[2.171s] running install_scripts
+[2.190s] Installing my_first_node script to /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/my_pkg_01
+[2.191s] Installing pose_color_change script to /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/my_pkg_01
+[2.192s] Installing set_pen_client script to /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/my_pkg_01
+[2.193s] writing list of installed files to '/home/aniketh05/my_ros2_ws/build/my_pkg_01/install.log'
+[2.218s] Invoked command in '/home/aniketh05/my_ros2_ws/src/my_pkg_01' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pkg_01 build --build-base /home/aniketh05/my_ros2_ws/build/my_pkg_01/build install --record /home/aniketh05/my_ros2_ws/build/my_pkg_01/install.log --single-version-externally-managed install_data --force

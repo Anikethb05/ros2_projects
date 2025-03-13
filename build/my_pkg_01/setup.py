@@ -1,1 +1,0 @@
-/home/aniketh05/my_ros2_ws/src/my_pkg_01/setup.py

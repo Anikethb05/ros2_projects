@@ -1,0 +1,57 @@
+[1.460s] Invoking command in '/home/aniketh05/my_ros2_ws/build/my_pkg_prac': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build
+[1.695s] running develop
+[1.739s] /home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[1.739s]   warnings.warn(
+[1.825s] Removing /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my-pkg-prac.egg-link (link to .)
+[1.853s] Invoked command in '/home/aniketh05/my_ros2_ws/build/my_pkg_prac' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build
+[1.856s] Invoking command in '/home/aniketh05/my_ros2_ws/src/my_pkg_prac': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pkg_prac build --build-base /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build install --record /home/aniketh05/my_ros2_ws/build/my_pkg_prac/install.log --single-version-externally-managed install_data --force
+[2.078s] running egg_info
+[2.079s] writing ../../build/my_pkg_prac/my_pkg_prac.egg-info/PKG-INFO
+[2.079s] writing dependency_links to ../../build/my_pkg_prac/my_pkg_prac.egg-info/dependency_links.txt
+[2.080s] writing entry points to ../../build/my_pkg_prac/my_pkg_prac.egg-info/entry_points.txt
+[2.080s] writing requirements to ../../build/my_pkg_prac/my_pkg_prac.egg-info/requires.txt
+[2.080s] writing top-level names to ../../build/my_pkg_prac/my_pkg_prac.egg-info/top_level.txt
+[2.082s] reading manifest file '../../build/my_pkg_prac/my_pkg_prac.egg-info/SOURCES.txt'
+[2.083s] writing manifest file '../../build/my_pkg_prac/my_pkg_prac.egg-info/SOURCES.txt'
+[2.084s] running build
+[2.084s] running build_py
+[2.085s] copying my_pkg_prac/sub.py -> /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac
+[2.087s] copying my_pkg_prac/shape.py -> /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac
+[2.088s] copying my_pkg_prac/pub.py -> /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac
+[2.090s] running install
+[2.091s] running install_lib
+[2.092s] creating /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac
+[2.092s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac/pen_change.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac
+[2.093s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac/move_circular.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac
+[2.093s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac/__init__.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac
+[2.094s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac/sub.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac
+[2.094s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac/my_pub_node.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac
+[2.095s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac/my_pose_sub.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac
+[2.095s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac/pub_sub_node.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac
+[2.096s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac/shape.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac
+[2.096s] copying /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build/lib/my_pkg_prac/pub.py -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac
+[2.097s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac/pen_change.py to pen_change.cpython-310.pyc
+[2.097s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac/move_circular.py to move_circular.cpython-310.pyc
+[2.098s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac/__init__.py to __init__.cpython-310.pyc
+[2.098s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac/sub.py to sub.cpython-310.pyc
+[2.098s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac/my_pub_node.py to my_pub_node.cpython-310.pyc
+[2.098s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac/my_pose_sub.py to my_pose_sub.cpython-310.pyc
+[2.099s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac/pub_sub_node.py to pub_sub_node.cpython-310.pyc
+[2.099s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac/shape.py to shape.cpython-310.pyc
+[2.099s] byte-compiling /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac/pub.py to pub.cpython-310.pyc
+[2.100s] running install_data
+[2.100s] copying resource/my_pkg_prac -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/share/ament_index/resource_index/packages
+[2.101s] copying package.xml -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/share/my_pkg_prac
+[2.102s] running install_egg_info
+[2.105s] Copying ../../build/my_pkg_prac/my_pkg_prac.egg-info to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my_pkg_prac-0.0.0-py3.10.egg-info
+[2.106s] running install_scripts
+[2.126s] Installing move_circular script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[2.127s] Installing my_pose_sub script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[2.128s] Installing my_pub_node script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[2.128s] Installing pen_change script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[2.129s] Installing pub script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[2.129s] Installing pub_sub_node script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[2.129s] Installing shape script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[2.129s] Installing sub script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[2.129s] writing list of installed files to '/home/aniketh05/my_ros2_ws/build/my_pkg_prac/install.log'
+[2.161s] Invoked command in '/home/aniketh05/my_ros2_ws/src/my_pkg_prac' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pkg_prac build --build-base /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build install --record /home/aniketh05/my_ros2_ws/build/my_pkg_prac/install.log --single-version-externally-managed install_data --force
