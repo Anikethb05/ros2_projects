@@ -1,3 +1,5 @@
 [console_scripts]
-
+my_first_node = my_pkg_01.my_first_node:main
+pose_color_change = my_pkg_01.pose_color_change:main
+set_pen_client = my_pkg_01.set_pen_client:main
 

@@ -1,0 +1,4 @@
+[console_scripts]
+add_two_ints = my_services.add_two_ints:main
+my_client = my_services.my_client:main
+
