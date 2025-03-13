@@ -1,0 +1,33 @@
+[0.839s] Invoking command in '/home/aniketh05/my_ros2_ws/src/my_pkg_srv': PYTHONPATH=/home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_pkg_srv build --build-base /home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/build install --record /home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/install.log --single-version-externally-managed install_data
+[1.096s] running egg_info
+[1.096s] creating ../build/my_pkg_srv/my_pkg_srv.egg-info
+[1.096s] writing ../build/my_pkg_srv/my_pkg_srv.egg-info/PKG-INFO
+[1.097s] writing dependency_links to ../build/my_pkg_srv/my_pkg_srv.egg-info/dependency_links.txt
+[1.097s] writing entry points to ../build/my_pkg_srv/my_pkg_srv.egg-info/entry_points.txt
+[1.097s] writing requirements to ../build/my_pkg_srv/my_pkg_srv.egg-info/requires.txt
+[1.097s] writing top-level names to ../build/my_pkg_srv/my_pkg_srv.egg-info/top_level.txt
+[1.097s] writing manifest file '../build/my_pkg_srv/my_pkg_srv.egg-info/SOURCES.txt'
+[1.099s] reading manifest file '../build/my_pkg_srv/my_pkg_srv.egg-info/SOURCES.txt'
+[1.099s] writing manifest file '../build/my_pkg_srv/my_pkg_srv.egg-info/SOURCES.txt'
+[1.100s] running build
+[1.100s] running build_py
+[1.101s] creating /home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/build
+[1.101s] creating /home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/build/lib
+[1.101s] creating /home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/build/lib/my_pkg_srv
+[1.101s] copying my_pkg_srv/__init__.py -> /home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/build/lib/my_pkg_srv
+[1.102s] running install
+[1.102s] running install_lib
+[1.103s] creating /home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/lib/python3.10/site-packages/my_pkg_srv
+[1.103s] copying /home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/build/lib/my_pkg_srv/__init__.py -> /home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/lib/python3.10/site-packages/my_pkg_srv
+[1.104s] byte-compiling /home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/lib/python3.10/site-packages/my_pkg_srv/__init__.py to __init__.cpython-310.pyc
+[1.105s] running install_data
+[1.105s] creating /home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/share/ament_index
+[1.105s] creating /home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/share/ament_index/resource_index
+[1.105s] creating /home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/share/ament_index/resource_index/packages
+[1.105s] copying resource/my_pkg_srv -> /home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/share/ament_index/resource_index/packages
+[1.105s] copying package.xml -> /home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/share/my_pkg_srv
+[1.105s] running install_egg_info
+[1.108s] Copying ../build/my_pkg_srv/my_pkg_srv.egg-info to /home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/lib/python3.10/site-packages/my_pkg_srv-0.0.0-py3.10.egg-info
+[1.108s] running install_scripts
+[1.126s] writing list of installed files to '/home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/install.log'
+[1.147s] Invoked command in '/home/aniketh05/my_ros2_ws/src/my_pkg_srv' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/src/install/my_pkg_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_pkg_srv build --build-base /home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/build install --record /home/aniketh05/my_ros2_ws/src/build/my_pkg_srv/install.log --single-version-externally-managed install_data

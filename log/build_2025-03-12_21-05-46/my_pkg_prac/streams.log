@@ -1,0 +1,19 @@
+[0.901s] Invoking command in '/home/aniketh05/my_ros2_ws/build/my_pkg_prac': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build --no-deps symlink_data
+[1.281s] running develop
+[1.348s] /home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[1.348s]   warnings.warn(
+[1.529s] running egg_info
+[1.529s] writing my_pkg_prac.egg-info/PKG-INFO
+[1.530s] writing dependency_links to my_pkg_prac.egg-info/dependency_links.txt
+[1.530s] writing entry points to my_pkg_prac.egg-info/entry_points.txt
+[1.531s] writing requirements to my_pkg_prac.egg-info/requires.txt
+[1.531s] writing top-level names to my_pkg_prac.egg-info/top_level.txt
+[1.532s] reading manifest file 'my_pkg_prac.egg-info/SOURCES.txt'
+[1.533s] writing manifest file 'my_pkg_prac.egg-info/SOURCES.txt'
+[1.535s] running build_ext
+[1.535s] Creating /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my-pkg-prac.egg-link (link to .)
+[1.537s] Installing my_pub_node=my_pkg_prac.my_pub_node:mainmy_pub_sub script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[1.537s] 
+[1.537s] Installed /home/aniketh05/my_ros2_ws/build/my_pkg_prac
+[1.537s] running symlink_data
+[1.568s] Invoked command in '/home/aniketh05/my_ros2_ws/build/my_pkg_prac' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build --no-deps symlink_data
