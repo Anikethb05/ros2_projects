@@ -1,0 +1,42 @@
+[3.770s] Invoking command in '/home/aniketh05/my_ros2_ws/src/build/my_services': PYTHONPATH=/home/aniketh05/my_ros2_ws/src/build/my_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/aniketh05/my_ros2_ws/src/build/my_services/build
+[4.535s] running develop
+[4.658s] /home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[4.659s]   warnings.warn(
+[5.023s] Removing /home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages/my-services.egg-link (link to .)
+[5.093s] Invoked command in '/home/aniketh05/my_ros2_ws/src/build/my_services' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/src/build/my_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/aniketh05/my_ros2_ws/src/build/my_services/build
+[5.098s] Invoking command in '/home/aniketh05/my_ros2_ws/src/my_services': PYTHONPATH=/home/aniketh05/my_ros2_ws/src/build/my_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_services build --build-base /home/aniketh05/my_ros2_ws/src/build/my_services/build install --record /home/aniketh05/my_ros2_ws/src/build/my_services/install.log --single-version-externally-managed install_data --force
+[5.792s] running egg_info
+[5.794s] writing ../build/my_services/my_services.egg-info/PKG-INFO
+[5.796s] writing dependency_links to ../build/my_services/my_services.egg-info/dependency_links.txt
+[5.798s] writing entry points to ../build/my_services/my_services.egg-info/entry_points.txt
+[5.798s] writing requirements to ../build/my_services/my_services.egg-info/requires.txt
+[5.799s] writing top-level names to ../build/my_services/my_services.egg-info/top_level.txt
+[5.803s] reading manifest file '../build/my_services/my_services.egg-info/SOURCES.txt'
+[5.806s] writing manifest file '../build/my_services/my_services.egg-info/SOURCES.txt'
+[5.807s] running build
+[5.807s] running build_py
+[5.808s] creating /home/aniketh05/my_ros2_ws/src/build/my_services/build
+[5.808s] creating /home/aniketh05/my_ros2_ws/src/build/my_services/build/lib
+[5.808s] creating /home/aniketh05/my_ros2_ws/src/build/my_services/build/lib/my_services
+[5.809s] copying my_services/__init__.py -> /home/aniketh05/my_ros2_ws/src/build/my_services/build/lib/my_services
+[5.809s] copying my_services/add_two_ints.py -> /home/aniketh05/my_ros2_ws/src/build/my_services/build/lib/my_services
+[5.810s] copying my_services/my_client.py -> /home/aniketh05/my_ros2_ws/src/build/my_services/build/lib/my_services
+[5.810s] running install
+[5.810s] running install_lib
+[5.812s] creating /home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages/my_services
+[5.812s] copying /home/aniketh05/my_ros2_ws/src/build/my_services/build/lib/my_services/__init__.py -> /home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages/my_services
+[5.813s] copying /home/aniketh05/my_ros2_ws/src/build/my_services/build/lib/my_services/add_two_ints.py -> /home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages/my_services
+[5.813s] copying /home/aniketh05/my_ros2_ws/src/build/my_services/build/lib/my_services/my_client.py -> /home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages/my_services
+[5.815s] byte-compiling /home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages/my_services/__init__.py to __init__.cpython-310.pyc
+[5.815s] byte-compiling /home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages/my_services/add_two_ints.py to add_two_ints.cpython-310.pyc
+[5.817s] byte-compiling /home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages/my_services/my_client.py to my_client.cpython-310.pyc
+[5.818s] running install_data
+[5.819s] copying resource/my_services -> /home/aniketh05/my_ros2_ws/src/install/my_services/share/ament_index/resource_index/packages
+[5.819s] copying package.xml -> /home/aniketh05/my_ros2_ws/src/install/my_services/share/my_services
+[5.820s] running install_egg_info
+[5.827s] Copying ../build/my_services/my_services.egg-info to /home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages/my_services-0.0.0-py3.10.egg-info
+[5.828s] running install_scripts
+[5.877s] Installing add_two_ints script to /home/aniketh05/my_ros2_ws/src/install/my_services/lib/my_services
+[5.878s] Installing my_client script to /home/aniketh05/my_ros2_ws/src/install/my_services/lib/my_services
+[5.878s] writing list of installed files to '/home/aniketh05/my_ros2_ws/src/build/my_services/install.log'
+[5.935s] Invoked command in '/home/aniketh05/my_ros2_ws/src/my_services' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/src/build/my_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/src/install/my_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_services build --build-base /home/aniketh05/my_ros2_ws/src/build/my_services/build install --record /home/aniketh05/my_ros2_ws/src/build/my_services/install.log --single-version-externally-managed install_data --force

@@ -1,1 +1,1 @@
-my_msg_srv
+/home/aniketh05/my_ros2_ws/build/my_msg_srv/ament_cmake_python/my_msg_srv/my_msg_srv.egg-info/top_level.txt

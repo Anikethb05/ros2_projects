@@ -1,0 +1,8 @@
+{
+  "package_name": "my_msg_srv",
+  "non_idl_tuples": [
+    "/home/aniketh05/my_ros2_ws/src/my_msg_srv:msg/MyMsg.msg",
+    "/home/aniketh05/my_ros2_ws/src/my_msg_srv:msg/Sphere.msg",
+    "/home/aniketh05/my_ros2_ws/src/my_msg_srv:srv/AddThreeNums.srv"
+  ]
+}

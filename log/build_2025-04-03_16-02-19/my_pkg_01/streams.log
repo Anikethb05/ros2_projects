@@ -1,0 +1,28 @@
+[2.034s] Invoking command in '/home/aniketh05/my_ros2_ws/build/my_pkg_01': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_pkg_01/build --no-deps symlink_data
+[2.863s] running develop
+[3.025s] /home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[3.025s]   warnings.warn(
+[3.428s] running egg_info
+[3.428s] creating my_pkg_01.egg-info
+[3.429s] writing my_pkg_01.egg-info/PKG-INFO
+[3.429s] writing dependency_links to my_pkg_01.egg-info/dependency_links.txt
+[3.431s] writing entry points to my_pkg_01.egg-info/entry_points.txt
+[3.432s] writing requirements to my_pkg_01.egg-info/requires.txt
+[3.433s] writing top-level names to my_pkg_01.egg-info/top_level.txt
+[3.433s] writing manifest file 'my_pkg_01.egg-info/SOURCES.txt'
+[3.436s] reading manifest file 'my_pkg_01.egg-info/SOURCES.txt'
+[3.438s] writing manifest file 'my_pkg_01.egg-info/SOURCES.txt'
+[3.441s] running build_ext
+[3.441s] Creating /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my-pkg-01.egg-link (link to .)
+[3.443s] Installing my_first_node script to /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/my_pkg_01
+[3.446s] Installing pose_color_change script to /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/my_pkg_01
+[3.449s] Installing set_pen_client script to /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/my_pkg_01
+[3.455s] 
+[3.455s] Installed /home/aniketh05/my_ros2_ws/build/my_pkg_01
+[3.456s] running symlink_data
+[3.458s] creating /home/aniketh05/my_ros2_ws/install/my_pkg_01/share/ament_index
+[3.459s] creating /home/aniketh05/my_ros2_ws/install/my_pkg_01/share/ament_index/resource_index
+[3.460s] creating /home/aniketh05/my_ros2_ws/install/my_pkg_01/share/ament_index/resource_index/packages
+[3.461s] symbolically linking /home/aniketh05/my_ros2_ws/build/my_pkg_01/resource/my_pkg_01 -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/share/ament_index/resource_index/packages
+[3.461s] symbolically linking /home/aniketh05/my_ros2_ws/build/my_pkg_01/package.xml -> /home/aniketh05/my_ros2_ws/install/my_pkg_01/share/my_pkg_01
+[3.578s] Invoked command in '/home/aniketh05/my_ros2_ws/build/my_pkg_01' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_pkg_01/build --no-deps symlink_data

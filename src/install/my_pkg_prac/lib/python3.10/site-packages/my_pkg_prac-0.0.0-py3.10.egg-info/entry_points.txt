@@ -1,0 +1,10 @@
+[console_scripts]
+move_circular = my_pkg_prac.move_circular:main
+my_pose_sub = my_pkg_prac.my_pose_sub:main
+my_pub_node = my_pkg_prac.my_pub_node:main
+pen_change = my_pkg_prac.pen_change:main
+pub = my_pkg_prac.pub:main
+pub_sub_node = my_pkg_prac.pub_sub_node:main
+shape = my_pkg_prac.shape:main
+sub = my_pkg_prac.sub:main
+

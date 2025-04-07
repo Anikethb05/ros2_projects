@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="gesture_arm">
+
+  <!-- Materials -->
+  <xacro:macro name="material_color" params="name r g b a">
+    <material name="${name}">
+      <color rgba="${r} ${g} ${b} ${a}"/>
+    </material>
+  </xacro:macro>
+
+  <!-- Define common properties -->
+  <xacro:property name="pi" value="3.14159265359" />
+  
+  <!-- Link dimensions -->
+  <xacro:property name="base_radius" value="0.1" />
+  <xacro:property name="base_length" value="0.2" />
+  <xacro:property name="link1_radius" value="0.05" />
+  <xacro:property name="link1_length" value="0.3" />
+  <xacro:property name="link2_radius" value="0.04" />
+  <xacro:property name="link2_length" value="0.25" />
+  <xacro:property name="link3_radius" value="0.03" />
+  <xacro:property name="link3_length" value="0.2" />
+  <xacro:property name="ee_radius" value="0.05" />
+  
+  <!-- Joint limits -->
+  <xacro:property name="joint_effort" value="10.0" />
+  <xacro:property name="joint_velocity" value="1.0" />
+  <xacro:property name="joint_lower" value="-1.57" />
+  <xacro:property name="joint_upper" value="1.57" />
+  
+  <!-- Gripper properties -->
+  <xacro:property name="gripper_width" value="0.08" />
+  <xacro:property name="gripper_height" value="0.04" />
+  <xacro:property name="gripper_depth" value="0.02" />
+  <xacro:property name="finger_width" value="0.02" />
+  <xacro:property name="finger_height" value="0.01" />
+  <xacro:property name="finger_length" value="0.06" />
+  <xacro:property name="finger_effort" value="5.0" />
+  <xacro:property name="finger_velocity" value="0.1" />
+  <xacro:property name="finger_lower" value="-0.03" />
+  <xacro:property name="finger_upper" value="0.0" />
+
+  <!-- Cylindrical link macro -->
+  <xacro:macro name="cylinder_link" params="name radius length color_name r g b a xyz rpy">
+    <link name="${name}">
+      <visual>
+        <geometry>
+          <cylinder radius="${radius}" length="${length}"/>
+        </geometry>
+        <origin xyz="${xyz}" rpy="${rpy}" />
+        <xacro:material_color name="${color_name}" r="${r}" g="${g}" b="${b}" a="${a}" />
+      </visual>
+    </link>
+  </xacro:macro>
+  
+  <!-- Revolute joint macro -->
+  <xacro:macro name="revolute_joint" params="name parent child xyz rpy axis_xyz lower upper effort velocity">
+    <joint name="${name}" type="revolute">
+      <parent link="${parent}"/>
+      <child link="${child}"/>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+      <axis xyz="${axis_xyz}"/>
+      <limit lower="${lower}" upper="${upper}" effort="${effort}" velocity="${velocity}"/>
+    </joint>
+  </xacro:macro>
+  
+  <!-- Finger macro -->
+  <xacro:macro name="gripper_finger" params="prefix rotation">
+    <joint name="${prefix}_finger_joint" type="prismatic">
+      <parent link="gripper_base"/>
+      <child link="${prefix}_finger"/>
+      <origin xyz="0.04 0.0 0.02" rpy="0 0 ${rotation}"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="${finger_lower}" upper="${finger_upper}" effort="${finger_effort}" velocity="${finger_velocity}"/>
+    </joint>
+    
+    <link name="${prefix}_finger">
+      <visual>
+        <geometry>
+          <box size="${finger_width} ${finger_height} ${finger_length}"/>
+        </geometry>
+        <origin xyz="0 0 0.03" rpy="0 0 0"/>
+        <xacro:material_color name="orange" r="1.0" g="0.5" b="0.0" a="1.0" />
+      </visual>
+    </link>
+  </xacro:macro>
+  
+  <!-- Base link -->
+  <xacro:cylinder_link name="base_link" radius="${base_radius}" length="${base_length}" 
+                      color_name="blue" r="0.0" g="0.0" b="1.0" a="1.0" 
+                      xyz="0 0 0" rpy="0 0 0" />
+  
+  <!-- Joint 1 -->
+  <xacro:revolute_joint name="joint1" parent="base_link" child="link1" 
+                       xyz="0 0 0.1" rpy="0 0 0" axis_xyz="0 0 1"
+                       lower="${joint_lower}" upper="${joint_upper}" 
+                       effort="${joint_effort}" velocity="${joint_velocity}" />
+  
+  <!-- Link 1 -->
+  <xacro:cylinder_link name="link1" radius="${link1_radius}" length="${link1_length}" 
+                      color_name="red" r="1.0" g="0.0" b="0.0" a="1.0" 
+                      xyz="0 0 0.15" rpy="0 0 0" />
+  
+  <!-- Joint 2 -->
+  <xacro:revolute_joint name="joint2" parent="link1" child="link2" 
+                       xyz="0 0 0.3" rpy="0 0 0" axis_xyz="0 1 0"
+                       lower="${joint_lower}" upper="${joint_upper}" 
+                       effort="${joint_effort}" velocity="${joint_velocity}" />
+  
+  <!-- Link 2 -->
+  <xacro:cylinder_link name="link2" radius="${link2_radius}" length="${link2_length}" 
+                      color_name="green" r="0.0" g="1.0" b="0.0" a="1.0" 
+                      xyz="0 0 0.125" rpy="0 0 0" />
+  
+  <!-- Joint 3 -->
+  <xacro:revolute_joint name="joint3" parent="link2" child="link3" 
+                       xyz="0 0 0.25" rpy="0 0 0" axis_xyz="0 1 0"
+                       lower="${joint_lower}" upper="${joint_upper}" 
+                       effort="${joint_effort}" velocity="${joint_velocity}" />
+  
+  <!-- Link 3 -->
+  <xacro:cylinder_link name="link3" radius="${link3_radius}" length="${link3_length}" 
+                      color_name="yellow" r="1.0" g="1.0" b="0.0" a="1.0" 
+                      xyz="0 0 0.1" rpy="0 0 0" />
+  
+  <!-- Joint 4 -->
+  <xacro:revolute_joint name="joint4" parent="link3" child="end_effector" 
+                       xyz="0 0 0.2" rpy="0 0 0" axis_xyz="0 1 0"
+                       lower="${joint_lower}" upper="${joint_upper}" 
+                       effort="${joint_effort}" velocity="${joint_velocity}" />
+  
+  <!-- End Effector -->
+  <link name="end_effector">
+    <visual>
+      <geometry>
+        <sphere radius="${ee_radius}"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <xacro:material_color name="black" r="0.0" g="0.0" b="0.0" a="1.0" />
+    </visual>
+  </link>
+  
+  <!-- Gripper joint -->
+  <joint name="gripper_joint" type="fixed">
+    <parent link="end_effector"/>
+    <child link="gripper_base"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- Gripper base -->
+  <link name="gripper_base">
+    <visual>
+      <geometry>
+        <box size="${gripper_width} ${gripper_height} ${gripper_depth}"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <xacro:material_color name="gray" r="0.5" g="0.5" b="0.5" a="1.0" />
+    </visual>
+  </link>
+  
+  <!-- Gripper fingers -->
+  <xacro:gripper_finger prefix="left" rotation="0" />
+  <xacro:gripper_finger prefix="right" rotation="${pi}" />
+
+</robot>

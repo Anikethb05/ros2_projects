@@ -1,12 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from my_msg_srv/msg/MyMsg.msg
-// generated code does not contain a copyright notice
-
-
-module my_msg_srv {
-  module msg {
-    struct MyMsg {
-      double a;
-    };
-  };
-};
+/home/aniketh05/my_ros2_ws/build/my_msg_srv/rosidl_adapter/my_msg_srv/msg/MyMsg.idl

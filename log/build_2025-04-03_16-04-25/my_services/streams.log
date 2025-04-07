@@ -1,0 +1,20 @@
+[2.092s] Invoking command in '/home/aniketh05/my_ros2_ws/build/my_services': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_services/build --no-deps symlink_data
+[2.859s] running develop
+[2.977s] /home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[2.977s]   warnings.warn(
+[3.282s] running egg_info
+[3.283s] writing my_services.egg-info/PKG-INFO
+[3.283s] writing dependency_links to my_services.egg-info/dependency_links.txt
+[3.284s] writing entry points to my_services.egg-info/entry_points.txt
+[3.284s] writing requirements to my_services.egg-info/requires.txt
+[3.285s] writing top-level names to my_services.egg-info/top_level.txt
+[3.287s] reading manifest file 'my_services.egg-info/SOURCES.txt'
+[3.288s] writing manifest file 'my_services.egg-info/SOURCES.txt'
+[3.292s] running build_ext
+[3.292s] Creating /home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages/my-services.egg-link (link to .)
+[3.294s] Installing add_two_ints script to /home/aniketh05/my_ros2_ws/install/my_services/lib/my_services
+[3.295s] Installing my_client script to /home/aniketh05/my_ros2_ws/install/my_services/lib/my_services
+[3.295s] 
+[3.295s] Installed /home/aniketh05/my_ros2_ws/build/my_services
+[3.295s] running symlink_data
+[3.383s] Invoked command in '/home/aniketh05/my_ros2_ws/build/my_services' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_services/build --no-deps symlink_data

@@ -1,0 +1,308 @@
+[0.000000] (-) TimerEvent: {}
+[0.000699] (-) JobUnselected: {'identifier': 'my_msg_srv'}
+[0.000899] (-) JobUnselected: {'identifier': 'my_pkg_01'}
+[0.000938] (-) JobUnselected: {'identifier': 'my_pkg_prac'}
+[0.000948] (-) JobUnselected: {'identifier': 'my_services'}
+[0.000955] (-) JobUnselected: {'identifier': 'turtle_control'}
+[0.000974] (my_gesture_arm_robot) JobQueued: {'identifier': 'my_gesture_arm_robot', 'dependencies': OrderedDict()}
+[0.000985] (my_gesture_arm_robot) JobStarted: {'identifier': 'my_gesture_arm_robot'}
+[0.006184] (my_gesture_arm_robot) JobProgress: {'identifier': 'my_gesture_arm_robot', 'progress': 'cmake'}
+[0.007045] (my_gesture_arm_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/aniketh05/my_ros2_ws/src/my_gesture_arm_robot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot'], 'cwd': '/home/aniketh05/my_ros2_ws/build/my_gesture_arm_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aniketh05'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aniketh05/my_ros2_ws/install/my_msg_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/aniketh05'), ('OLDPWD', '/home/aniketh05/my_ros2_ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aniketh05'), ('NAME', 'ANIKETH'), ('WSL_INTEROP', '/run/WSL/564_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot/share/my_gesture_arm_robot/model'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/.local/bin:/opt/ros/humble/bin:/home/aniketh05/opt/cross/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/anike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/anike/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/anike/AppData/Roaming/npm:/mnt/c/Program Files/PostgreSQL/16/share/extension:/snap/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/aniketh05/my_ros2_ws/build/my_gesture_arm_robot'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aniketh05/my_ros2_ws/build/turtle_control:/home/aniketh05/my_ros2_ws/build/my_services:/home/aniketh05/my_ros2_ws/build/my_pkg_prac:/home/aniketh05/my_ros2_ws/build/my_pkg_01:/home/aniketh05/my_ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('gazebo_ros_control_DIR', '/opt/ros/humble/share/gazebo_ros_control/cmake'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.017321] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.095700] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.099634] (-) TimerEvent: {}
+[0.099930] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.100029] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.199737] (-) TimerEvent: {}
+[0.239840] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.241249] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.245718] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.253551] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.261024] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.282258] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.283564] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299839] (-) TimerEvent: {}
+[0.400105] (-) TimerEvent: {}
+[0.500372] (-) TimerEvent: {}
+[0.600587] (-) TimerEvent: {}
+[0.700849] (-) TimerEvent: {}
+[0.801059] (-) TimerEvent: {}
+[0.901314] (-) TimerEvent: {}
+[1.001612] (-) TimerEvent: {}
+[1.101991] (-) TimerEvent: {}
+[1.202297] (-) TimerEvent: {}
+[1.302554] (-) TimerEvent: {}
+[1.402883] (-) TimerEvent: {}
+[1.503160] (-) TimerEvent: {}
+[1.603431] (-) TimerEvent: {}
+[1.703691] (-) TimerEvent: {}
+[1.803957] (-) TimerEvent: {}
+[1.904317] (-) TimerEvent: {}
+[2.004724] (-) TimerEvent: {}
+[2.104996] (-) TimerEvent: {}
+[2.205253] (-) TimerEvent: {}
+[2.305496] (-) TimerEvent: {}
+[2.405761] (-) TimerEvent: {}
+[2.506002] (-) TimerEvent: {}
+[2.606248] (-) TimerEvent: {}
+[2.706508] (-) TimerEvent: {}
+[2.806802] (-) TimerEvent: {}
+[2.907148] (-) TimerEvent: {}
+[3.007514] (-) TimerEvent: {}
+[3.107918] (-) TimerEvent: {}
+[3.208192] (-) TimerEvent: {}
+[3.308433] (-) TimerEvent: {}
+[3.408730] (-) TimerEvent: {}
+[3.509002] (-) TimerEvent: {}
+[3.588697] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.609115] (-) TimerEvent: {}
+[3.638414] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.656765] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[3.658092] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.660998] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.661913] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[3.665576] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[3.665927] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.672585] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.673549] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.673639] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.673709] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.673776] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.673841] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[3.673907] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.673971] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.674036] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.674100] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.674175] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.674239] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.709263] (-) TimerEvent: {}
+[3.809596] (-) TimerEvent: {}
+[3.909949] (-) TimerEvent: {}
+[4.010753] (-) TimerEvent: {}
+[4.110997] (-) TimerEvent: {}
+[4.211311] (-) TimerEvent: {}
+[4.311534] (-) TimerEvent: {}
+[4.411797] (-) TimerEvent: {}
+[4.512103] (-) TimerEvent: {}
+[4.612372] (-) TimerEvent: {}
+[4.712682] (-) TimerEvent: {}
+[4.812972] (-) TimerEvent: {}
+[4.913298] (-) TimerEvent: {}
+[5.013631] (-) TimerEvent: {}
+[5.114005] (-) TimerEvent: {}
+[5.214334] (-) TimerEvent: {}
+[5.314625] (-) TimerEvent: {}
+[5.414955] (-) TimerEvent: {}
+[5.515211] (-) TimerEvent: {}
+[5.615552] (-) TimerEvent: {}
+[5.715829] (-) TimerEvent: {}
+[5.816136] (-) TimerEvent: {}
+[5.916376] (-) TimerEvent: {}
+[6.016666] (-) TimerEvent: {}
+[6.116918] (-) TimerEvent: {}
+[6.217175] (-) TimerEvent: {}
+[6.317490] (-) TimerEvent: {}
+[6.417802] (-) TimerEvent: {}
+[6.518168] (-) TimerEvent: {}
+[6.618443] (-) TimerEvent: {}
+[6.718737] (-) TimerEvent: {}
+[6.819059] (-) TimerEvent: {}
+[6.919337] (-) TimerEvent: {}
+[7.019622] (-) TimerEvent: {}
+[7.119922] (-) TimerEvent: {}
+[7.220282] (-) TimerEvent: {}
+[7.320566] (-) TimerEvent: {}
+[7.420845] (-) TimerEvent: {}
+[7.521113] (-) TimerEvent: {}
+[7.621346] (-) TimerEvent: {}
+[7.721560] (-) TimerEvent: {}
+[7.821828] (-) TimerEvent: {}
+[7.922135] (-) TimerEvent: {}
+[8.022405] (-) TimerEvent: {}
+[8.122646] (-) TimerEvent: {}
+[8.223021] (-) TimerEvent: {}
+[8.323250] (-) TimerEvent: {}
+[8.423536] (-) TimerEvent: {}
+[8.523795] (-) TimerEvent: {}
+[8.624132] (-) TimerEvent: {}
+[8.724452] (-) TimerEvent: {}
+[8.824745] (-) TimerEvent: {}
+[8.925022] (-) TimerEvent: {}
+[9.025337] (-) TimerEvent: {}
+[9.125778] (-) TimerEvent: {}
+[9.226170] (-) TimerEvent: {}
+[9.326486] (-) TimerEvent: {}
+[9.426764] (-) TimerEvent: {}
+[9.527081] (-) TimerEvent: {}
+[9.627485] (-) TimerEvent: {}
+[9.727840] (-) TimerEvent: {}
+[9.828109] (-) TimerEvent: {}
+[9.928345] (-) TimerEvent: {}
+[10.028661] (-) TimerEvent: {}
+[10.129000] (-) TimerEvent: {}
+[10.229281] (-) TimerEvent: {}
+[10.329607] (-) TimerEvent: {}
+[10.430027] (-) TimerEvent: {}
+[10.530333] (-) TimerEvent: {}
+[10.630597] (-) TimerEvent: {}
+[10.730854] (-) TimerEvent: {}
+[10.831109] (-) TimerEvent: {}
+[10.931403] (-) TimerEvent: {}
+[11.031640] (-) TimerEvent: {}
+[11.131884] (-) TimerEvent: {}
+[11.232130] (-) TimerEvent: {}
+[11.332461] (-) TimerEvent: {}
+[11.432720] (-) TimerEvent: {}
+[11.532972] (-) TimerEvent: {}
+[11.633243] (-) TimerEvent: {}
+[11.733489] (-) TimerEvent: {}
+[11.833756] (-) TimerEvent: {}
+[11.934017] (-) TimerEvent: {}
+[12.034331] (-) TimerEvent: {}
+[12.134598] (-) TimerEvent: {}
+[12.234917] (-) TimerEvent: {}
+[12.335180] (-) TimerEvent: {}
+[12.435454] (-) TimerEvent: {}
+[12.535733] (-) TimerEvent: {}
+[12.636016] (-) TimerEvent: {}
+[12.736308] (-) TimerEvent: {}
+[12.836647] (-) TimerEvent: {}
+[12.936981] (-) TimerEvent: {}
+[13.037316] (-) TimerEvent: {}
+[13.137649] (-) TimerEvent: {}
+[13.238059] (-) TimerEvent: {}
+[13.338340] (-) TimerEvent: {}
+[13.438713] (-) TimerEvent: {}
+[13.538972] (-) TimerEvent: {}
+[13.639264] (-) TimerEvent: {}
+[13.739548] (-) TimerEvent: {}
+[13.839906] (-) TimerEvent: {}
+[13.940171] (-) TimerEvent: {}
+[14.040462] (-) TimerEvent: {}
+[14.140720] (-) TimerEvent: {}
+[14.240974] (-) TimerEvent: {}
+[14.341216] (-) TimerEvent: {}
+[14.441479] (-) TimerEvent: {}
+[14.541771] (-) TimerEvent: {}
+[14.617796] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[14.618233] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[14.618524] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[14.641850] (-) TimerEvent: {}
+[14.742098] (-) TimerEvent: {}
+[14.842384] (-) TimerEvent: {}
+[14.942727] (-) TimerEvent: {}
+[15.042958] (-) TimerEvent: {}
+[15.143386] (-) TimerEvent: {}
+[15.243726] (-) TimerEvent: {}
+[15.344057] (-) TimerEvent: {}
+[15.444580] (-) TimerEvent: {}
+[15.545053] (-) TimerEvent: {}
+[15.645518] (-) TimerEvent: {}
+[15.745490] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[15.745635] (-) TimerEvent: {}
+[15.845884] (-) TimerEvent: {}
+[15.946166] (-) TimerEvent: {}
+[16.046436] (-) TimerEvent: {}
+[16.146724] (-) TimerEvent: {}
+[16.247002] (-) TimerEvent: {}
+[16.347367] (-) TimerEvent: {}
+[16.388803] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[16.391858] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[16.398744] (my_gesture_arm_robot) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[16.419746] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[16.426689] (my_gesture_arm_robot) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[16.443544] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[16.444033] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[16.447439] (-) TimerEvent: {}
+[16.547658] (-) TimerEvent: {}
+[16.647940] (-) TimerEvent: {}
+[16.748216] (-) TimerEvent: {}
+[16.848485] (-) TimerEvent: {}
+[16.948762] (-) TimerEvent: {}
+[17.049066] (-) TimerEvent: {}
+[17.149399] (-) TimerEvent: {}
+[17.249677] (-) TimerEvent: {}
+[17.317993] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[17.322139] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[17.328523] (my_gesture_arm_robot) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[17.348151] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[17.348600] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[17.349682] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[17.349865] (-) TimerEvent: {}
+[17.351427] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[17.352094] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[17.419758] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[17.420027] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[17.420528] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[17.420659] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[17.421267] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[17.421593] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[17.449989] (-) TimerEvent: {}
+[17.550225] (-) TimerEvent: {}
+[17.650539] (-) TimerEvent: {}
+[17.750848] (-) TimerEvent: {}
+[17.851182] (-) TimerEvent: {}
+[17.951596] (-) TimerEvent: {}
+[18.051891] (-) TimerEvent: {}
+[18.152243] (-) TimerEvent: {}
+[18.252537] (-) TimerEvent: {}
+[18.352927] (-) TimerEvent: {}
+[18.453342] (-) TimerEvent: {}
+[18.549653] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[18.553500] (-) TimerEvent: {}
+[18.557202] (my_gesture_arm_robot) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[18.578131] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[18.587733] (my_gesture_arm_robot) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[18.606693] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[18.606999] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[18.607248] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[18.608088] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[18.609033] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[18.609112] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)\n'}
+[18.609377] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[18.653633] (-) TimerEvent: {}
+[18.754076] (-) TimerEvent: {}
+[18.854465] (-) TimerEvent: {}
+[18.954783] (-) TimerEvent: {}
+[19.055295] (-) TimerEvent: {}
+[19.155739] (-) TimerEvent: {}
+[19.256210] (-) TimerEvent: {}
+[19.356731] (-) TimerEvent: {}
+[19.457154] (-) TimerEvent: {}
+[19.557565] (-) TimerEvent: {}
+[19.657956] (-) TimerEvent: {}
+[19.689022] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[19.706407] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[19.707738] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[19.758238] (-) TimerEvent: {}
+[19.858603] (-) TimerEvent: {}
+[19.958973] (-) TimerEvent: {}
+[20.059396] (-) TimerEvent: {}
+[20.159861] (-) TimerEvent: {}
+[20.260289] (-) TimerEvent: {}
+[20.360677] (-) TimerEvent: {}
+[20.460996] (-) TimerEvent: {}
+[20.561376] (-) TimerEvent: {}
+[20.661685] (-) TimerEvent: {}
+[20.685781] (my_gesture_arm_robot) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[20.685941] (my_gesture_arm_robot) StderrLine: {'line': b'  By not providing "Findlaunch_ros.cmake" in CMAKE_MODULE_PATH this project\n'}
+[20.685985] (my_gesture_arm_robot) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[20.686016] (my_gesture_arm_robot) StderrLine: {'line': b'  "launch_ros", but CMake did not find one.\n'}
+[20.686046] (my_gesture_arm_robot) StderrLine: {'line': b'\n'}
+[20.686074] (my_gesture_arm_robot) StderrLine: {'line': b'  Could not find a package configuration file provided by "launch_ros" with\n'}
+[20.686102] (my_gesture_arm_robot) StderrLine: {'line': b'  any of the following names:\n'}
+[20.686129] (my_gesture_arm_robot) StderrLine: {'line': b'\n'}
+[20.686157] (my_gesture_arm_robot) StderrLine: {'line': b'    launch_rosConfig.cmake\n'}
+[20.686184] (my_gesture_arm_robot) StderrLine: {'line': b'    launch_ros-config.cmake\n'}
+[20.686211] (my_gesture_arm_robot) StderrLine: {'line': b'\n'}
+[20.686239] (my_gesture_arm_robot) StderrLine: {'line': b'  Add the installation prefix of "launch_ros" to CMAKE_PREFIX_PATH or set\n'}
+[20.686266] (my_gesture_arm_robot) StderrLine: {'line': b'  "launch_ros_DIR" to a directory containing one of the above files.  If\n'}
+[20.686294] (my_gesture_arm_robot) StderrLine: {'line': b'  "launch_ros" provides a separate development package or SDK, be sure it has\n'}
+[20.686346] (my_gesture_arm_robot) StderrLine: {'line': b'  been installed.\n'}
+[20.686384] (my_gesture_arm_robot) StderrLine: {'line': b'\n'}
+[20.686414] (my_gesture_arm_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[20.687241] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[20.687399] (my_gesture_arm_robot) StdoutLine: {'line': b'See also "/home/aniketh05/my_ros2_ws/build/my_gesture_arm_robot/CMakeFiles/CMakeOutput.log".\n'}
+[20.696278] (my_gesture_arm_robot) CommandEnded: {'returncode': 1}
+[20.711128] (my_gesture_arm_robot) JobEnded: {'identifier': 'my_gesture_arm_robot', 'rc': 1}
+[20.721703] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.003375] (-) JobUnselected: {'identifier': 'my_ddrobot'}
+[0.005476] (-) JobUnselected: {'identifier': 'my_gesture_arm_robot'}
+[0.005678] (-) JobUnselected: {'identifier': 'my_msg_srv'}
+[0.005725] (-) JobUnselected: {'identifier': 'my_pkg_01'}
+[0.005755] (-) JobUnselected: {'identifier': 'my_pkg_prac'}
+[0.005780] (-) JobUnselected: {'identifier': 'my_services'}
+[0.005802] (-) JobUnselected: {'identifier': 'turtle_control'}
+[0.005821] (-) EventReactorShutdown: {}

@@ -1,0 +1,762 @@
+[0.000000] (-) TimerEvent: {}
+[0.000459] (my_gesture_arm_robot) JobQueued: {'identifier': 'my_gesture_arm_robot', 'dependencies': OrderedDict()}
+[0.000559] (my_msg_srv) JobQueued: {'identifier': 'my_msg_srv', 'dependencies': OrderedDict()}
+[0.000994] (my_pkg_01) JobQueued: {'identifier': 'my_pkg_01', 'dependencies': OrderedDict()}
+[0.001043] (my_pkg_prac) JobQueued: {'identifier': 'my_pkg_prac', 'dependencies': OrderedDict()}
+[0.001055] (my_services) JobQueued: {'identifier': 'my_services', 'dependencies': OrderedDict()}
+[0.001064] (turtle_control) JobQueued: {'identifier': 'turtle_control', 'dependencies': OrderedDict()}
+[0.001101] (my_gesture_arm_robot) JobStarted: {'identifier': 'my_gesture_arm_robot'}
+[0.006015] (my_msg_srv) JobStarted: {'identifier': 'my_msg_srv'}
+[0.009606] (my_pkg_01) JobStarted: {'identifier': 'my_pkg_01'}
+[0.014258] (my_pkg_prac) JobStarted: {'identifier': 'my_pkg_prac'}
+[0.019660] (my_services) JobStarted: {'identifier': 'my_services'}
+[0.024050] (turtle_control) JobStarted: {'identifier': 'turtle_control'}
+[0.029740] (my_gesture_arm_robot) JobProgress: {'identifier': 'my_gesture_arm_robot', 'progress': 'cmake'}
+[0.030751] (my_gesture_arm_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/aniketh05/my_ros2_ws/src/my_gesture_arm_robot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot'], 'cwd': '/home/aniketh05/my_ros2_ws/build/my_gesture_arm_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aniketh05'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aniketh05/my_ros2_ws/install/my_msg_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/aniketh05'), ('OLDPWD', '/home/aniketh05/my_ros2_ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aniketh05'), ('NAME', 'ANIKETH'), ('WSL_INTEROP', '/run/WSL/564_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot/share/my_gesture_arm_robot/model'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/.local/bin:/opt/ros/humble/bin:/home/aniketh05/opt/cross/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/anike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/anike/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/anike/AppData/Roaming/npm:/mnt/c/Program Files/PostgreSQL/16/share/extension:/snap/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/aniketh05/my_ros2_ws/build/my_gesture_arm_robot'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aniketh05/my_ros2_ws/build/turtle_control:/home/aniketh05/my_ros2_ws/build/my_services:/home/aniketh05/my_ros2_ws/build/my_pkg_prac:/home/aniketh05/my_ros2_ws/build/my_pkg_01:/home/aniketh05/my_ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('gazebo_ros_control_DIR', '/opt/ros/humble/share/gazebo_ros_control/cmake'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.034983] (my_msg_srv) JobProgress: {'identifier': 'my_msg_srv', 'progress': 'cmake'}
+[0.035688] (my_msg_srv) JobProgress: {'identifier': 'my_msg_srv', 'progress': 'build'}
+[0.037715] (my_msg_srv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aniketh05/my_ros2_ws/build/my_msg_srv', '--', '-j12', '-l12'], 'cwd': '/home/aniketh05/my_ros2_ws/build/my_msg_srv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aniketh05'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aniketh05/my_ros2_ws/install/my_msg_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/aniketh05'), ('OLDPWD', '/home/aniketh05/my_ros2_ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aniketh05'), ('NAME', 'ANIKETH'), ('WSL_INTEROP', '/run/WSL/564_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot/share/my_gesture_arm_robot/model'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/.local/bin:/opt/ros/humble/bin:/home/aniketh05/opt/cross/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/anike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/anike/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/anike/AppData/Roaming/npm:/mnt/c/Program Files/PostgreSQL/16/share/extension:/snap/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/aniketh05/my_ros2_ws/build/my_msg_srv'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aniketh05/my_ros2_ws/build/turtle_control:/home/aniketh05/my_ros2_ws/build/my_services:/home/aniketh05/my_ros2_ws/build/my_pkg_prac:/home/aniketh05/my_ros2_ws/build/my_pkg_01:/home/aniketh05/my_ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('gazebo_ros_control_DIR', '/opt/ros/humble/share/gazebo_ros_control/cmake'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.099378] (-) TimerEvent: {}
+[0.199831] (-) TimerEvent: {}
+[0.300184] (-) TimerEvent: {}
+[0.400653] (-) TimerEvent: {}
+[0.501015] (-) TimerEvent: {}
+[0.601378] (-) TimerEvent: {}
+[0.702067] (-) TimerEvent: {}
+[0.790258] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_generator_c\x1b[0m\n'}
+[0.791991] (my_msg_srv) StdoutLine: {'line': b'[  2%] Built target my_msg_srv__cpp\n'}
+[0.792159] (my_msg_srv) StdoutLine: {'line': b'[ 12%] Built target my_msg_srv__rosidl_generator_c\n'}
+[0.792218] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.792268] (my_msg_srv) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_my_msg_srv\n'}
+[0.792315] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.792359] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.792402] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.792443] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_typesupport_c\x1b[0m\n'}
+[0.792485] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.792530] (my_msg_srv) StdoutLine: {'line': b'[ 23%] Built target my_msg_srv__rosidl_typesupport_fastrtps_cpp\n'}
+[0.792586] (my_msg_srv) StdoutLine: {'line': b'[ 44%] Built target my_msg_srv__rosidl_typesupport_introspection_cpp\n'}
+[0.792640] (my_msg_srv) StdoutLine: {'line': b'[ 53%] Built target my_msg_srv__rosidl_typesupport_introspection_c\n'}
+[0.792686] (my_msg_srv) StdoutLine: {'line': b'[ 55%] Built target my_msg_srv__rosidl_typesupport_cpp\n'}
+[0.792782] (my_msg_srv) StdoutLine: {'line': b'[ 76%] Built target my_msg_srv__rosidl_typesupport_fastrtps_c\n'}
+[0.792838] (my_msg_srv) StdoutLine: {'line': b'[ 76%] Built target my_msg_srv__rosidl_typesupport_c\n'}
+[0.792889] (my_msg_srv) StdoutLine: {'line': b'[ 76%] Built target my_msg_srv\n'}
+[0.792937] (my_msg_srv) StdoutLine: {'line': b'[ 78%] Built target my_msg_srv__py\n'}
+[0.792992] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_generator_py\x1b[0m\n'}
+[0.793057] (my_msg_srv) StdoutLine: {'line': b'[ 87%] Built target my_msg_srv__rosidl_generator_py\n'}
+[0.793129] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.793183] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.793238] (my_msg_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_msg_srv__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.793287] (my_msg_srv) StdoutLine: {'line': b'[ 95%] Built target my_msg_srv__rosidl_typesupport_introspection_c__pyext\n'}
+[0.793437] (my_msg_srv) StdoutLine: {'line': b'[ 95%] Built target my_msg_srv__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.793511] (my_msg_srv) StdoutLine: {'line': b'[100%] Built target my_msg_srv__rosidl_typesupport_c__pyext\n'}
+[0.793566] (my_msg_srv) StdoutLine: {'line': b'running egg_info\n'}
+[0.793616] (my_msg_srv) StdoutLine: {'line': b'writing my_msg_srv.egg-info/PKG-INFO\n'}
+[0.793661] (my_msg_srv) StdoutLine: {'line': b'writing dependency_links to my_msg_srv.egg-info/dependency_links.txt\n'}
+[0.793705] (my_msg_srv) StdoutLine: {'line': b'writing top-level names to my_msg_srv.egg-info/top_level.txt\n'}
+[0.793748] (my_msg_srv) StdoutLine: {'line': b"reading manifest file 'my_msg_srv.egg-info/SOURCES.txt'\n"}
+[0.793790] (my_msg_srv) StdoutLine: {'line': b"writing manifest file 'my_msg_srv.egg-info/SOURCES.txt'\n"}
+[0.793830] (my_msg_srv) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_msg_srv_egg\n'}
+[0.793874] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.793944] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.793989] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.794032] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.794429] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.794576] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.794688] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.794794] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.794903] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.795012] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.795134] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.802219] (-) TimerEvent: {}
+[0.902593] (-) TimerEvent: {}
+[1.003199] (-) TimerEvent: {}
+[1.103607] (-) TimerEvent: {}
+[1.155878] (my_msg_srv) CommandEnded: {'returncode': 0}
+[1.157695] (my_msg_srv) JobProgress: {'identifier': 'my_msg_srv', 'progress': 'install'}
+[1.167791] (my_msg_srv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aniketh05/my_ros2_ws/build/my_msg_srv'], 'cwd': '/home/aniketh05/my_ros2_ws/build/my_msg_srv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aniketh05'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aniketh05/my_ros2_ws/install/my_msg_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/aniketh05'), ('OLDPWD', '/home/aniketh05/my_ros2_ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aniketh05'), ('NAME', 'ANIKETH'), ('WSL_INTEROP', '/run/WSL/564_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot/share/my_gesture_arm_robot/model'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/.local/bin:/opt/ros/humble/bin:/home/aniketh05/opt/cross/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/anike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/anike/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/anike/AppData/Roaming/npm:/mnt/c/Program Files/PostgreSQL/16/share/extension:/snap/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/aniketh05/my_ros2_ws/build/my_msg_srv'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aniketh05/my_ros2_ws/build/turtle_control:/home/aniketh05/my_ros2_ws/build/my_services:/home/aniketh05/my_ros2_ws/build/my_pkg_prac:/home/aniketh05/my_ros2_ws/build/my_pkg_01:/home/aniketh05/my_ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('gazebo_ros_control_DIR', '/opt/ros/humble/share/gazebo_ros_control/cmake'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.183183] (my_msg_srv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.185435] (my_msg_srv) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.185804] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/ament_index/resource_index/rosidl_interfaces/my_msg_srv\n'}
+[1.187358] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__functions.h\n'}
+[1.188870] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__struct.h\n'}
+[1.189042] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__type_support.h\n'}
+[1.189216] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__functions.h\n'}
+[1.189338] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__struct.h\n'}
+[1.189642] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__type_support.h\n'}
+[1.190289] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/my_msg.h\n'}
+[1.190725] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.191163] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/sphere.h\n'}
+[1.191377] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/add_three_nums.h\n'}
+[1.192146] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__functions.h\n'}
+[1.192556] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__struct.h\n'}
+[1.194075] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__type_support.h\n'}
+[1.195755] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/environment/library_path.sh\n'}
+[1.196121] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/environment/library_path.dsv\n'}
+[1.196593] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[1.197376] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[1.197855] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.198049] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__rosidl_typesupport_fastrtps_c.h\n'}
+[1.201279] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__rosidl_typesupport_introspection_c.h\n'}
+[1.201789] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[1.202522] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.206731] (-) TimerEvent: {}
+[1.207296] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__rosidl_typesupport_introspection_c.h\n'}
+[1.207683] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__builder.hpp\n'}
+[1.208039] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__struct.hpp\n'}
+[1.208285] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__traits.hpp\n'}
+[1.208458] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__type_support.hpp\n'}
+[1.209379] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__builder.hpp\n'}
+[1.209596] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__struct.hpp\n'}
+[1.209987] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__traits.hpp\n'}
+[1.210385] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__type_support.hpp\n'}
+[1.210757] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/my_msg.hpp\n'}
+[1.211418] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.212149] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/sphere.hpp\n'}
+[1.212617] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/add_three_nums.hpp\n'}
+[1.213285] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__builder.hpp\n'}
+[1.213679] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__struct.hpp\n'}
+[1.214159] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__traits.hpp\n'}
+[1.214321] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__type_support.hpp\n'}
+[1.214680] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.214817] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.214943] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.215097] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.215220] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/my_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.215346] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.215467] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/include/my_msg_srv/my_msg_srv/srv/detail/add_three_nums__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.215585] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/environment/pythonpath.sh\n'}
+[1.215711] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/environment/pythonpath.dsv\n'}
+[1.215853] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.215979] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.216102] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.216222] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.216338] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/__init__.py\n'}
+[1.216532] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/_my_msg_srv_s.ep.rosidl_typesupport_c.c\n'}
+[1.216657] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/_my_msg_srv_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.216772] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/_my_msg_srv_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.216897] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/libmy_msg_srv__rosidl_generator_py.so\n'}
+[1.217009] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/msg/__init__.py\n'}
+[1.217118] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/msg/_my_msg.py\n'}
+[1.217225] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/msg/_my_msg_s.c\n'}
+[1.217332] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/msg/_sphere.py\n'}
+[1.217439] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/msg/_sphere_s.c\n'}
+[1.217542] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/my_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.217651] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/my_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.217756] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/my_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.217868] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/srv/__init__.py\n'}
+[1.217974] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/srv/_add_three_nums.py\n'}
+[1.218080] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/srv/_add_three_nums_s.c\n'}
+[1.218186] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/my_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.218322] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/my_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.218430] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/my_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.218536] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/msg/MyMsg.idl\n'}
+[1.218864] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/msg/Sphere.idl\n'}
+[1.219018] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/srv/AddThreeNums.idl\n'}
+[1.219159] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/msg/MyMsg.msg\n'}
+[1.219331] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/msg/Sphere.msg\n'}
+[1.219482] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/srv/AddThreeNums.srv\n'}
+[1.219618] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/srv/AddThreeNums_Request.msg\n'}
+[1.219749] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/srv/AddThreeNums_Response.msg\n'}
+[1.219872] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/ament_index/resource_index/package_run_dependencies/my_msg_srv\n'}
+[1.220014] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/ament_index/resource_index/parent_prefix_path/my_msg_srv\n'}
+[1.220150] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/environment/ament_prefix_path.sh\n'}
+[1.220278] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/environment/ament_prefix_path.dsv\n'}
+[1.220402] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/environment/path.sh\n'}
+[1.220549] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/environment/path.dsv\n'}
+[1.220694] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/local_setup.bash\n'}
+[1.220827] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/local_setup.sh\n'}
+[1.220954] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/local_setup.zsh\n'}
+[1.221080] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/local_setup.dsv\n'}
+[1.221215] (my_msg_srv) StdoutLine: {'line': b'-- Symlinking: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/package.dsv\n'}
+[1.228671] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/ament_index/resource_index/packages/my_msg_srv\n'}
+[1.229405] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/rosidl_cmake-extras.cmake\n'}
+[1.229845] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.230165] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.230567] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.230838] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.231304] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.231687] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.232319] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/my_msg_srvConfig.cmake\n'}
+[1.232556] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/my_msg_srvConfig-version.cmake\n'}
+[1.232945] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/package.xml\n'}
+[1.233377] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/lib/libmy_msg_srv__rosidl_generator_c.so\n'}
+[1.233529] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/lib/libmy_msg_srv__rosidl_typesupport_fastrtps_c.so\n'}
+[1.233908] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/lib/libmy_msg_srv__rosidl_typesupport_introspection_c.so\n'}
+[1.234339] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/lib/libmy_msg_srv__rosidl_typesupport_c.so\n'}
+[1.234751] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/lib/libmy_msg_srv__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.235258] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/lib/libmy_msg_srv__rosidl_typesupport_introspection_cpp.so\n'}
+[1.235911] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/lib/libmy_msg_srv__rosidl_typesupport_cpp.so\n'}
+[1.302676] (my_msg_srv) StdoutLine: {'line': b"Listing '/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv'...\n"}
+[1.303048] (my_msg_srv) StdoutLine: {'line': b"Listing '/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/msg'...\n"}
+[1.303198] (my_msg_srv) StdoutLine: {'line': b"Listing '/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages/my_msg_srv/srv'...\n"}
+[1.306879] (-) TimerEvent: {}
+[1.311128] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/lib/libmy_msg_srv__rosidl_generator_py.so\n'}
+[1.311680] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/export_my_msg_srv__rosidl_generator_cExport.cmake\n'}
+[1.311997] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/export_my_msg_srv__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.312629] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/export_my_msg_srv__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.313401] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/export_my_msg_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.314174] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/my_msg_srv__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.314555] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/my_msg_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.315036] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/my_msg_srv__rosidl_typesupport_cExport.cmake\n'}
+[1.315139] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/my_msg_srv__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.315208] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/export_my_msg_srv__rosidl_generator_cppExport.cmake\n'}
+[1.315270] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/export_my_msg_srv__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.315378] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/export_my_msg_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.315445] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/my_msg_srv__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.315503] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/my_msg_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.315560] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/my_msg_srv__rosidl_typesupport_cppExport.cmake\n'}
+[1.315617] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/my_msg_srv__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.315673] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/export_my_msg_srv__rosidl_generator_pyExport.cmake\n'}
+[1.315762] (my_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /home/aniketh05/my_ros2_ws/install/my_msg_srv/share/my_msg_srv/cmake/export_my_msg_srv__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.318991] (my_msg_srv) CommandEnded: {'returncode': 0}
+[1.357755] (my_msg_srv) JobEnded: {'identifier': 'my_msg_srv', 'rc': 0}
+[1.407103] (-) TimerEvent: {}
+[1.507711] (-) TimerEvent: {}
+[1.608468] (-) TimerEvent: {}
+[1.709394] (-) TimerEvent: {}
+[1.810083] (-) TimerEvent: {}
+[1.910915] (-) TimerEvent: {}
+[2.011709] (-) TimerEvent: {}
+[2.077654] (my_pkg_01) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/aniketh05/my_ros2_ws/build/my_pkg_01/build', '--no-deps', 'symlink_data'], 'cwd': '/home/aniketh05/my_ros2_ws/build/my_pkg_01', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aniketh05', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aniketh05/my_ros2_ws/install/my_msg_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/aniketh05', 'OLDPWD': '/home/aniketh05/my_ros2_ws', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aniketh05', 'NAME': 'ANIKETH', 'WSL_INTEROP': '/run/WSL/564_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot/share/my_gesture_arm_robot/model', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/.local/bin:/opt/ros/humble/bin:/home/aniketh05/opt/cross/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/anike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/anike/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/anike/AppData/Roaming/npm:/mnt/c/Program Files/PostgreSQL/16/share/extension:/snap/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/aniketh05/my_ros2_ws/build/my_pkg_01', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aniketh05/my_ros2_ws/build/my_pkg_01/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/build/turtle_control:/home/aniketh05/my_ros2_ws/build/my_services:/home/aniketh05/my_ros2_ws/build/my_pkg_prac:/home/aniketh05/my_ros2_ws/build/my_pkg_01:/home/aniketh05/my_ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'gazebo_ros_control_DIR': '/opt/ros/humble/share/gazebo_ros_control/cmake', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot', 'WSLENV': ''}, 'shell': False}
+[2.101024] (my_services) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/aniketh05/my_ros2_ws/build/my_services/build', '--no-deps', 'symlink_data'], 'cwd': '/home/aniketh05/my_ros2_ws/build/my_services', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aniketh05', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aniketh05/my_ros2_ws/install/my_msg_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/aniketh05', 'OLDPWD': '/home/aniketh05/my_ros2_ws', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aniketh05', 'NAME': 'ANIKETH', 'WSL_INTEROP': '/run/WSL/564_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot/share/my_gesture_arm_robot/model', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/.local/bin:/opt/ros/humble/bin:/home/aniketh05/opt/cross/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/anike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/anike/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/anike/AppData/Roaming/npm:/mnt/c/Program Files/PostgreSQL/16/share/extension:/snap/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/aniketh05/my_ros2_ws/build/my_services', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aniketh05/my_ros2_ws/build/my_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/build/turtle_control:/home/aniketh05/my_ros2_ws/build/my_services:/home/aniketh05/my_ros2_ws/build/my_pkg_prac:/home/aniketh05/my_ros2_ws/build/my_pkg_01:/home/aniketh05/my_ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'gazebo_ros_control_DIR': '/opt/ros/humble/share/gazebo_ros_control/cmake', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot', 'WSLENV': ''}, 'shell': False}
+[2.112493] (-) TimerEvent: {}
+[2.117767] (turtle_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/aniketh05/my_ros2_ws/build/turtle_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/aniketh05/my_ros2_ws/build/turtle_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aniketh05', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aniketh05/my_ros2_ws/install/my_msg_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/aniketh05', 'OLDPWD': '/home/aniketh05/my_ros2_ws', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aniketh05', 'NAME': 'ANIKETH', 'WSL_INTEROP': '/run/WSL/564_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot/share/my_gesture_arm_robot/model', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/.local/bin:/opt/ros/humble/bin:/home/aniketh05/opt/cross/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/anike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/anike/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/anike/AppData/Roaming/npm:/mnt/c/Program Files/PostgreSQL/16/share/extension:/snap/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/aniketh05/my_ros2_ws/build/turtle_control', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aniketh05/my_ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/build/turtle_control:/home/aniketh05/my_ros2_ws/build/my_services:/home/aniketh05/my_ros2_ws/build/my_pkg_prac:/home/aniketh05/my_ros2_ws/build/my_pkg_01:/home/aniketh05/my_ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'gazebo_ros_control_DIR': '/opt/ros/humble/share/gazebo_ros_control/cmake', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot', 'WSLENV': ''}, 'shell': False}
+[2.146585] (my_pkg_prac) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/aniketh05/my_ros2_ws/build/my_pkg_prac/build', '--no-deps', 'symlink_data'], 'cwd': '/home/aniketh05/my_ros2_ws/build/my_pkg_prac', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aniketh05', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aniketh05/my_ros2_ws/install/my_msg_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/aniketh05', 'OLDPWD': '/home/aniketh05/my_ros2_ws', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aniketh05', 'NAME': 'ANIKETH', 'WSL_INTEROP': '/run/WSL/564_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot/share/my_gesture_arm_robot/model', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/opt/cross/bin:/home/aniketh05/.local/bin:/opt/ros/humble/bin:/home/aniketh05/opt/cross/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/anike/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/anike/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/anike/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/anike/AppData/Roaming/npm:/mnt/c/Program Files/PostgreSQL/16/share/extension:/snap/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin:/opt/cross/bin:/opt/cross/bin:/home/aniketh05/.nilup/bin:/home/aniketh05/.nilup/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/aniketh05/my_ros2_ws/build/my_pkg_prac', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aniketh05/my_ros2_ws/build/my_pkg_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/build/turtle_control:/home/aniketh05/my_ros2_ws/build/my_services:/home/aniketh05/my_ros2_ws/build/my_pkg_prac:/home/aniketh05/my_ros2_ws/build/my_pkg_01:/home/aniketh05/my_ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages:/home/aniketh05/my_ros2_ws/install/my_msg_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'gazebo_ros_control_DIR': '/opt/ros/humble/share/gazebo_ros_control/cmake', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/aniketh05/my_ros2_ws/install/my_msg_srv:/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot', 'WSLENV': ''}, 'shell': False}
+[2.212687] (-) TimerEvent: {}
+[2.313301] (-) TimerEvent: {}
+[2.413962] (-) TimerEvent: {}
+[2.514668] (-) TimerEvent: {}
+[2.615507] (-) TimerEvent: {}
+[2.716191] (-) TimerEvent: {}
+[2.816952] (-) TimerEvent: {}
+[2.851879] (my_pkg_01) StdoutLine: {'line': b'running develop\n'}
+[2.879428] (my_services) StdoutLine: {'line': b'running develop\n'}
+[2.915992] (turtle_control) StdoutLine: {'line': b'running develop\n'}
+[2.917139] (-) TimerEvent: {}
+[2.919466] (my_pkg_prac) StdoutLine: {'line': b'running develop\n'}
+[2.961047] (my_pkg_01) StderrLine: {'line': b'/home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release\n'}
+[2.961472] (my_pkg_01) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.996922] (my_services) StderrLine: {'line': b'/home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release\n'}
+[2.997352] (my_services) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.017326] (-) TimerEvent: {}
+[3.027691] (my_pkg_prac) StderrLine: {'line': b'/home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release\n'}
+[3.028102] (my_pkg_prac) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.034562] (turtle_control) StderrLine: {'line': b'/home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release\n'}
+[3.035237] (turtle_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.117517] (-) TimerEvent: {}
+[3.218197] (-) TimerEvent: {}
+[3.228392] (my_pkg_01) StdoutLine: {'line': b'running egg_info\n'}
+[3.228790] (my_pkg_01) StdoutLine: {'line': b'writing my_pkg_01.egg-info/PKG-INFO\n'}
+[3.229771] (my_pkg_01) StdoutLine: {'line': b'writing dependency_links to my_pkg_01.egg-info/dependency_links.txt\n'}
+[3.230325] (my_pkg_01) StdoutLine: {'line': b'writing entry points to my_pkg_01.egg-info/entry_points.txt\n'}
+[3.230911] (my_pkg_01) StdoutLine: {'line': b'writing requirements to my_pkg_01.egg-info/requires.txt\n'}
+[3.231748] (my_pkg_01) StdoutLine: {'line': b'writing top-level names to my_pkg_01.egg-info/top_level.txt\n'}
+[3.237132] (my_pkg_01) StdoutLine: {'line': b"reading manifest file 'my_pkg_01.egg-info/SOURCES.txt'\n"}
+[3.241386] (my_pkg_01) StdoutLine: {'line': b"writing manifest file 'my_pkg_01.egg-info/SOURCES.txt'\n"}
+[3.243216] (my_pkg_01) StdoutLine: {'line': b'running build_ext\n'}
+[3.244545] (my_pkg_01) StdoutLine: {'line': b'Creating /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/python3.10/site-packages/my-pkg-01.egg-link (link to .)\n'}
+[3.244925] (my_pkg_01) StdoutLine: {'line': b'Installing my_first_node script to /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/my_pkg_01\n'}
+[3.245593] (my_pkg_01) StdoutLine: {'line': b'Installing pose_color_change script to /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/my_pkg_01\n'}
+[3.245913] (my_pkg_01) StdoutLine: {'line': b'Installing set_pen_client script to /home/aniketh05/my_ros2_ws/install/my_pkg_01/lib/my_pkg_01\n'}
+[3.246467] (my_pkg_01) StdoutLine: {'line': b'\n'}
+[3.246748] (my_pkg_01) StdoutLine: {'line': b'Installed /home/aniketh05/my_ros2_ws/build/my_pkg_01\n'}
+[3.246900] (my_pkg_01) StdoutLine: {'line': b'running symlink_data\n'}
+[3.282457] (turtle_control) StdoutLine: {'line': b'running egg_info\n'}
+[3.283378] (turtle_control) StdoutLine: {'line': b'writing turtle_control.egg-info/PKG-INFO\n'}
+[3.283961] (turtle_control) StdoutLine: {'line': b'writing dependency_links to turtle_control.egg-info/dependency_links.txt\n'}
+[3.284334] (turtle_control) StdoutLine: {'line': b'writing entry points to turtle_control.egg-info/entry_points.txt\n'}
+[3.284875] (turtle_control) StdoutLine: {'line': b'writing requirements to turtle_control.egg-info/requires.txt\n'}
+[3.285690] (turtle_control) StdoutLine: {'line': b'writing top-level names to turtle_control.egg-info/top_level.txt\n'}
+[3.289690] (turtle_control) StdoutLine: {'line': b"reading manifest file 'turtle_control.egg-info/SOURCES.txt'\n"}
+[3.291642] (turtle_control) StdoutLine: {'line': b"writing manifest file 'turtle_control.egg-info/SOURCES.txt'\n"}
+[3.295174] (turtle_control) StdoutLine: {'line': b'running build_ext\n'}
+[3.295939] (turtle_control) StdoutLine: {'line': b'Creating /home/aniketh05/my_ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle-control.egg-link (link to .)\n'}
+[3.297416] (turtle_control) StdoutLine: {'line': b'Installing pub_sub script to /home/aniketh05/my_ros2_ws/install/turtle_control/lib/turtle_control\n'}
+[3.298230] (turtle_control) StdoutLine: {'line': b'Installing turtle_publisher script to /home/aniketh05/my_ros2_ws/install/turtle_control/lib/turtle_control\n'}
+[3.298667] (turtle_control) StdoutLine: {'line': b'Installing turtle_subscriber script to /home/aniketh05/my_ros2_ws/install/turtle_control/lib/turtle_control\n'}
+[3.299503] (turtle_control) StdoutLine: {'line': b'\n'}
+[3.299737] (turtle_control) StdoutLine: {'line': b'Installed /home/aniketh05/my_ros2_ws/build/turtle_control\n'}
+[3.299877] (turtle_control) StdoutLine: {'line': b'running symlink_data\n'}
+[3.301769] (my_services) StdoutLine: {'line': b'running egg_info\n'}
+[3.302676] (my_services) StdoutLine: {'line': b'writing my_services.egg-info/PKG-INFO\n'}
+[3.303319] (my_services) StdoutLine: {'line': b'writing dependency_links to my_services.egg-info/dependency_links.txt\n'}
+[3.303890] (my_services) StdoutLine: {'line': b'writing entry points to my_services.egg-info/entry_points.txt\n'}
+[3.304306] (my_services) StdoutLine: {'line': b'writing requirements to my_services.egg-info/requires.txt\n'}
+[3.304931] (my_services) StdoutLine: {'line': b'writing top-level names to my_services.egg-info/top_level.txt\n'}
+[3.307462] (my_services) StdoutLine: {'line': b"reading manifest file 'my_services.egg-info/SOURCES.txt'\n"}
+[3.308704] (my_services) StdoutLine: {'line': b"writing manifest file 'my_services.egg-info/SOURCES.txt'\n"}
+[3.311454] (my_services) StdoutLine: {'line': b'running build_ext\n'}
+[3.312232] (my_services) StdoutLine: {'line': b'Creating /home/aniketh05/my_ros2_ws/install/my_services/lib/python3.10/site-packages/my-services.egg-link (link to .)\n'}
+[3.313778] (my_services) StdoutLine: {'line': b'Installing add_two_ints script to /home/aniketh05/my_ros2_ws/install/my_services/lib/my_services\n'}
+[3.314619] (my_services) StdoutLine: {'line': b'Installing my_client script to /home/aniketh05/my_ros2_ws/install/my_services/lib/my_services\n'}
+[3.315377] (my_services) StdoutLine: {'line': b'\n'}
+[3.315613] (my_services) StdoutLine: {'line': b'Installed /home/aniketh05/my_ros2_ws/build/my_services\n'}
+[3.315862] (my_services) StdoutLine: {'line': b'running symlink_data\n'}
+[3.318390] (-) TimerEvent: {}
+[3.319337] (my_pkg_prac) StdoutLine: {'line': b'running egg_info\n'}
+[3.319765] (my_pkg_prac) StdoutLine: {'line': b'writing my_pkg_prac.egg-info/PKG-INFO\n'}
+[3.320472] (my_pkg_prac) StdoutLine: {'line': b'writing dependency_links to my_pkg_prac.egg-info/dependency_links.txt\n'}
+[3.321515] (my_pkg_prac) StdoutLine: {'line': b'writing entry points to my_pkg_prac.egg-info/entry_points.txt\n'}
+[3.321758] (my_pkg_prac) StdoutLine: {'line': b'writing requirements to my_pkg_prac.egg-info/requires.txt\n'}
+[3.321904] (my_pkg_prac) StdoutLine: {'line': b'writing top-level names to my_pkg_prac.egg-info/top_level.txt\n'}
+[3.325739] (my_pkg_prac) StdoutLine: {'line': b"reading manifest file 'my_pkg_prac.egg-info/SOURCES.txt'\n"}
+[3.328043] (my_pkg_prac) StdoutLine: {'line': b"writing manifest file 'my_pkg_prac.egg-info/SOURCES.txt'\n"}
+[3.330226] (my_pkg_01) CommandEnded: {'returncode': 0}
+[3.334035] (my_pkg_prac) StdoutLine: {'line': b'running build_ext\n'}
+[3.334658] (my_pkg_prac) StdoutLine: {'line': b'Creating /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my-pkg-prac.egg-link (link to .)\n'}
+[3.335775] (my_pkg_prac) StdoutLine: {'line': b'Installing move_circular script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac\n'}
+[3.336187] (my_pkg_prac) StdoutLine: {'line': b'Installing my_pose_sub script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac\n'}
+[3.336626] (my_pkg_prac) StdoutLine: {'line': b'Installing my_pub_node script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac\n'}
+[3.338176] (my_pkg_prac) StdoutLine: {'line': b'Installing pen_change script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac\n'}
+[3.338715] (my_pkg_prac) StdoutLine: {'line': b'Installing pub script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac\n'}
+[3.338896] (my_pkg_prac) StdoutLine: {'line': b'Installing pub_sub_node script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac\n'}
+[3.339281] (my_pkg_prac) StdoutLine: {'line': b'Installing shape script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac\n'}
+[3.339528] (my_pkg_prac) StdoutLine: {'line': b'Installing sub script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac\n'}
+[3.339730] (my_pkg_prac) StdoutLine: {'line': b'\n'}
+[3.341352] (my_pkg_prac) StdoutLine: {'line': b'Installed /home/aniketh05/my_ros2_ws/build/my_pkg_prac\n'}
+[3.342892] (my_pkg_prac) StdoutLine: {'line': b'running symlink_data\n'}
+[3.361115] (my_pkg_01) JobEnded: {'identifier': 'my_pkg_01', 'rc': 0}
+[3.377900] (turtle_control) CommandEnded: {'returncode': 0}
+[3.396538] (turtle_control) JobEnded: {'identifier': 'turtle_control', 'rc': 0}
+[3.403085] (my_services) CommandEnded: {'returncode': 0}
+[3.415830] (my_services) JobEnded: {'identifier': 'my_services', 'rc': 0}
+[3.420864] (-) TimerEvent: {}
+[3.422018] (my_pkg_prac) CommandEnded: {'returncode': 0}
+[3.435246] (my_pkg_prac) JobEnded: {'identifier': 'my_pkg_prac', 'rc': 0}
+[3.520992] (-) TimerEvent: {}
+[3.621495] (-) TimerEvent: {}
+[3.722330] (-) TimerEvent: {}
+[3.822683] (-) TimerEvent: {}
+[3.923020] (-) TimerEvent: {}
+[4.023357] (-) TimerEvent: {}
+[4.123659] (-) TimerEvent: {}
+[4.223949] (-) TimerEvent: {}
+[4.324277] (-) TimerEvent: {}
+[4.424687] (-) TimerEvent: {}
+[4.525153] (-) TimerEvent: {}
+[4.625444] (-) TimerEvent: {}
+[4.725787] (-) TimerEvent: {}
+[4.826380] (-) TimerEvent: {}
+[4.926712] (-) TimerEvent: {}
+[5.027105] (-) TimerEvent: {}
+[5.127488] (-) TimerEvent: {}
+[5.227930] (-) TimerEvent: {}
+[5.328327] (-) TimerEvent: {}
+[5.428618] (-) TimerEvent: {}
+[5.528968] (-) TimerEvent: {}
+[5.629364] (-) TimerEvent: {}
+[5.729772] (-) TimerEvent: {}
+[5.830091] (-) TimerEvent: {}
+[5.930430] (-) TimerEvent: {}
+[6.030715] (-) TimerEvent: {}
+[6.131005] (-) TimerEvent: {}
+[6.231280] (-) TimerEvent: {}
+[6.331525] (-) TimerEvent: {}
+[6.432267] (-) TimerEvent: {}
+[6.532555] (-) TimerEvent: {}
+[6.632880] (-) TimerEvent: {}
+[6.733174] (-) TimerEvent: {}
+[6.833489] (-) TimerEvent: {}
+[6.933769] (-) TimerEvent: {}
+[7.034068] (-) TimerEvent: {}
+[7.134379] (-) TimerEvent: {}
+[7.234787] (-) TimerEvent: {}
+[7.335236] (-) TimerEvent: {}
+[7.435573] (-) TimerEvent: {}
+[7.535871] (-) TimerEvent: {}
+[7.636200] (-) TimerEvent: {}
+[7.736542] (-) TimerEvent: {}
+[7.737282] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.791166] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[7.811152] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[7.812483] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.815683] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[7.816345] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[7.820089] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[7.820305] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[7.828157] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[7.828341] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[7.828423] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[7.828614] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[7.829017] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[7.829480] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[7.829527] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[7.829559] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[7.830221] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[7.830367] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[7.830505] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[7.830583] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[7.836929] (-) TimerEvent: {}
+[7.937221] (-) TimerEvent: {}
+[8.037519] (-) TimerEvent: {}
+[8.137806] (-) TimerEvent: {}
+[8.238094] (-) TimerEvent: {}
+[8.338413] (-) TimerEvent: {}
+[8.438744] (-) TimerEvent: {}
+[8.539116] (-) TimerEvent: {}
+[8.639417] (-) TimerEvent: {}
+[8.739761] (-) TimerEvent: {}
+[8.840093] (-) TimerEvent: {}
+[8.940413] (-) TimerEvent: {}
+[9.040754] (-) TimerEvent: {}
+[9.141029] (-) TimerEvent: {}
+[9.241340] (-) TimerEvent: {}
+[9.341608] (-) TimerEvent: {}
+[9.441874] (-) TimerEvent: {}
+[9.542126] (-) TimerEvent: {}
+[9.642487] (-) TimerEvent: {}
+[9.742897] (-) TimerEvent: {}
+[9.843188] (-) TimerEvent: {}
+[9.943513] (-) TimerEvent: {}
+[10.043821] (-) TimerEvent: {}
+[10.144308] (-) TimerEvent: {}
+[10.244653] (-) TimerEvent: {}
+[10.344945] (-) TimerEvent: {}
+[10.445277] (-) TimerEvent: {}
+[10.545678] (-) TimerEvent: {}
+[10.645978] (-) TimerEvent: {}
+[10.746275] (-) TimerEvent: {}
+[10.846643] (-) TimerEvent: {}
+[10.946987] (-) TimerEvent: {}
+[11.047340] (-) TimerEvent: {}
+[11.147668] (-) TimerEvent: {}
+[11.247950] (-) TimerEvent: {}
+[11.348247] (-) TimerEvent: {}
+[11.448551] (-) TimerEvent: {}
+[11.548859] (-) TimerEvent: {}
+[11.649182] (-) TimerEvent: {}
+[11.749497] (-) TimerEvent: {}
+[11.849859] (-) TimerEvent: {}
+[11.950166] (-) TimerEvent: {}
+[12.050495] (-) TimerEvent: {}
+[12.150830] (-) TimerEvent: {}
+[12.251136] (-) TimerEvent: {}
+[12.351432] (-) TimerEvent: {}
+[12.451706] (-) TimerEvent: {}
+[12.552007] (-) TimerEvent: {}
+[12.652313] (-) TimerEvent: {}
+[12.752699] (-) TimerEvent: {}
+[12.853282] (-) TimerEvent: {}
+[12.953674] (-) TimerEvent: {}
+[13.054107] (-) TimerEvent: {}
+[13.154415] (-) TimerEvent: {}
+[13.254724] (-) TimerEvent: {}
+[13.355046] (-) TimerEvent: {}
+[13.455363] (-) TimerEvent: {}
+[13.555681] (-) TimerEvent: {}
+[13.656360] (-) TimerEvent: {}
+[13.756639] (-) TimerEvent: {}
+[13.857050] (-) TimerEvent: {}
+[13.957366] (-) TimerEvent: {}
+[14.057726] (-) TimerEvent: {}
+[14.158004] (-) TimerEvent: {}
+[14.258622] (-) TimerEvent: {}
+[14.358924] (-) TimerEvent: {}
+[14.459590] (-) TimerEvent: {}
+[14.560230] (-) TimerEvent: {}
+[14.660858] (-) TimerEvent: {}
+[14.761149] (-) TimerEvent: {}
+[14.861467] (-) TimerEvent: {}
+[14.961818] (-) TimerEvent: {}
+[15.062123] (-) TimerEvent: {}
+[15.162556] (-) TimerEvent: {}
+[15.263077] (-) TimerEvent: {}
+[15.363578] (-) TimerEvent: {}
+[15.463888] (-) TimerEvent: {}
+[15.564163] (-) TimerEvent: {}
+[15.664823] (-) TimerEvent: {}
+[15.765215] (-) TimerEvent: {}
+[15.865598] (-) TimerEvent: {}
+[15.965927] (-) TimerEvent: {}
+[16.066247] (-) TimerEvent: {}
+[16.166670] (-) TimerEvent: {}
+[16.266986] (-) TimerEvent: {}
+[16.367334] (-) TimerEvent: {}
+[16.467669] (-) TimerEvent: {}
+[16.568065] (-) TimerEvent: {}
+[16.668539] (-) TimerEvent: {}
+[16.768866] (-) TimerEvent: {}
+[16.869174] (-) TimerEvent: {}
+[16.969552] (-) TimerEvent: {}
+[17.069896] (-) TimerEvent: {}
+[17.170231] (-) TimerEvent: {}
+[17.270801] (-) TimerEvent: {}
+[17.371401] (-) TimerEvent: {}
+[17.471940] (-) TimerEvent: {}
+[17.572341] (-) TimerEvent: {}
+[17.672616] (-) TimerEvent: {}
+[17.772979] (-) TimerEvent: {}
+[17.873347] (-) TimerEvent: {}
+[17.973680] (-) TimerEvent: {}
+[18.074079] (-) TimerEvent: {}
+[18.174565] (-) TimerEvent: {}
+[18.275012] (-) TimerEvent: {}
+[18.375455] (-) TimerEvent: {}
+[18.476045] (-) TimerEvent: {}
+[18.576717] (-) TimerEvent: {}
+[18.677220] (-) TimerEvent: {}
+[18.777686] (-) TimerEvent: {}
+[18.878087] (-) TimerEvent: {}
+[18.978538] (-) TimerEvent: {}
+[19.079006] (-) TimerEvent: {}
+[19.179554] (-) TimerEvent: {}
+[19.279969] (-) TimerEvent: {}
+[19.380418] (-) TimerEvent: {}
+[19.480852] (-) TimerEvent: {}
+[19.581380] (-) TimerEvent: {}
+[19.681835] (-) TimerEvent: {}
+[19.782296] (-) TimerEvent: {}
+[19.882888] (-) TimerEvent: {}
+[19.983309] (-) TimerEvent: {}
+[20.084161] (-) TimerEvent: {}
+[20.184778] (-) TimerEvent: {}
+[20.285397] (-) TimerEvent: {}
+[20.385780] (-) TimerEvent: {}
+[20.486166] (-) TimerEvent: {}
+[20.586679] (-) TimerEvent: {}
+[20.687121] (-) TimerEvent: {}
+[20.787604] (-) TimerEvent: {}
+[20.887959] (-) TimerEvent: {}
+[20.988336] (-) TimerEvent: {}
+[21.088787] (-) TimerEvent: {}
+[21.189110] (-) TimerEvent: {}
+[21.289539] (-) TimerEvent: {}
+[21.390181] (-) TimerEvent: {}
+[21.490597] (-) TimerEvent: {}
+[21.590978] (-) TimerEvent: {}
+[21.691349] (-) TimerEvent: {}
+[21.791798] (-) TimerEvent: {}
+[21.892126] (-) TimerEvent: {}
+[21.992882] (-) TimerEvent: {}
+[22.093245] (-) TimerEvent: {}
+[22.193702] (-) TimerEvent: {}
+[22.294210] (-) TimerEvent: {}
+[22.394670] (-) TimerEvent: {}
+[22.495059] (-) TimerEvent: {}
+[22.595530] (-) TimerEvent: {}
+[22.695935] (-) TimerEvent: {}
+[22.796456] (-) TimerEvent: {}
+[22.896961] (-) TimerEvent: {}
+[22.997356] (-) TimerEvent: {}
+[23.097735] (-) TimerEvent: {}
+[23.198205] (-) TimerEvent: {}
+[23.298617] (-) TimerEvent: {}
+[23.399122] (-) TimerEvent: {}
+[23.499600] (-) TimerEvent: {}
+[23.600000] (-) TimerEvent: {}
+[23.700724] (-) TimerEvent: {}
+[23.801232] (-) TimerEvent: {}
+[23.901859] (-) TimerEvent: {}
+[24.002569] (-) TimerEvent: {}
+[24.103161] (-) TimerEvent: {}
+[24.203756] (-) TimerEvent: {}
+[24.304353] (-) TimerEvent: {}
+[24.404920] (-) TimerEvent: {}
+[24.505448] (-) TimerEvent: {}
+[24.605857] (-) TimerEvent: {}
+[24.706294] (-) TimerEvent: {}
+[24.806651] (-) TimerEvent: {}
+[24.906963] (-) TimerEvent: {}
+[25.007310] (-) TimerEvent: {}
+[25.107658] (-) TimerEvent: {}
+[25.208000] (-) TimerEvent: {}
+[25.308459] (-) TimerEvent: {}
+[25.408773] (-) TimerEvent: {}
+[25.509114] (-) TimerEvent: {}
+[25.609526] (-) TimerEvent: {}
+[25.709831] (-) TimerEvent: {}
+[25.810249] (-) TimerEvent: {}
+[25.910622] (-) TimerEvent: {}
+[26.011623] (-) TimerEvent: {}
+[26.112513] (-) TimerEvent: {}
+[26.212962] (-) TimerEvent: {}
+[26.313448] (-) TimerEvent: {}
+[26.413921] (-) TimerEvent: {}
+[26.514294] (-) TimerEvent: {}
+[26.614787] (-) TimerEvent: {}
+[26.715234] (-) TimerEvent: {}
+[26.815614] (-) TimerEvent: {}
+[26.916039] (-) TimerEvent: {}
+[27.016331] (-) TimerEvent: {}
+[27.116623] (-) TimerEvent: {}
+[27.216927] (-) TimerEvent: {}
+[27.317296] (-) TimerEvent: {}
+[27.417709] (-) TimerEvent: {}
+[27.518082] (-) TimerEvent: {}
+[27.618393] (-) TimerEvent: {}
+[27.718693] (-) TimerEvent: {}
+[27.819032] (-) TimerEvent: {}
+[27.919469] (-) TimerEvent: {}
+[28.019792] (-) TimerEvent: {}
+[28.120138] (-) TimerEvent: {}
+[28.220521] (-) TimerEvent: {}
+[28.320843] (-) TimerEvent: {}
+[28.421205] (-) TimerEvent: {}
+[28.521717] (-) TimerEvent: {}
+[28.622156] (-) TimerEvent: {}
+[28.722533] (-) TimerEvent: {}
+[28.822926] (-) TimerEvent: {}
+[28.923441] (-) TimerEvent: {}
+[29.023763] (-) TimerEvent: {}
+[29.124176] (-) TimerEvent: {}
+[29.224686] (-) TimerEvent: {}
+[29.325202] (-) TimerEvent: {}
+[29.425556] (-) TimerEvent: {}
+[29.525946] (-) TimerEvent: {}
+[29.626273] (-) TimerEvent: {}
+[29.726650] (-) TimerEvent: {}
+[29.827005] (-) TimerEvent: {}
+[29.927371] (-) TimerEvent: {}
+[30.027850] (-) TimerEvent: {}
+[30.066671] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[30.067037] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[30.067690] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[30.127997] (-) TimerEvent: {}
+[30.228344] (-) TimerEvent: {}
+[30.328696] (-) TimerEvent: {}
+[30.429074] (-) TimerEvent: {}
+[30.529694] (-) TimerEvent: {}
+[30.630064] (-) TimerEvent: {}
+[30.730606] (-) TimerEvent: {}
+[30.831006] (-) TimerEvent: {}
+[30.931381] (-) TimerEvent: {}
+[31.031710] (-) TimerEvent: {}
+[31.132187] (-) TimerEvent: {}
+[31.232543] (-) TimerEvent: {}
+[31.332847] (-) TimerEvent: {}
+[31.433171] (-) TimerEvent: {}
+[31.529591] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[31.533293] (-) TimerEvent: {}
+[31.633651] (-) TimerEvent: {}
+[31.733976] (-) TimerEvent: {}
+[31.834425] (-) TimerEvent: {}
+[31.934912] (-) TimerEvent: {}
+[32.035319] (-) TimerEvent: {}
+[32.135693] (-) TimerEvent: {}
+[32.236204] (-) TimerEvent: {}
+[32.336547] (-) TimerEvent: {}
+[32.436891] (-) TimerEvent: {}
+[32.537239] (-) TimerEvent: {}
+[32.637557] (-) TimerEvent: {}
+[32.737900] (-) TimerEvent: {}
+[32.838267] (-) TimerEvent: {}
+[32.918243] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[32.921997] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[32.931905] (my_gesture_arm_robot) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[32.938367] (-) TimerEvent: {}
+[32.959453] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[32.968111] (my_gesture_arm_robot) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[32.989024] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[32.989692] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[33.038571] (-) TimerEvent: {}
+[33.139022] (-) TimerEvent: {}
+[33.239361] (-) TimerEvent: {}
+[33.339684] (-) TimerEvent: {}
+[33.440002] (-) TimerEvent: {}
+[33.540337] (-) TimerEvent: {}
+[33.640617] (-) TimerEvent: {}
+[33.741071] (-) TimerEvent: {}
+[33.841439] (-) TimerEvent: {}
+[33.941757] (-) TimerEvent: {}
+[34.042097] (-) TimerEvent: {}
+[34.142349] (-) TimerEvent: {}
+[34.242695] (-) TimerEvent: {}
+[34.343005] (-) TimerEvent: {}
+[34.366747] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[34.370265] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[34.380002] (my_gesture_arm_robot) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[34.399914] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[34.400266] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[34.400622] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[34.400841] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[34.400968] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[34.443110] (-) TimerEvent: {}
+[34.479261] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[34.479613] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[34.479938] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[34.480174] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[34.480969] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[34.481213] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[34.543217] (-) TimerEvent: {}
+[34.643527] (-) TimerEvent: {}
+[34.743804] (-) TimerEvent: {}
+[34.844116] (-) TimerEvent: {}
+[34.944435] (-) TimerEvent: {}
+[35.044710] (-) TimerEvent: {}
+[35.145001] (-) TimerEvent: {}
+[35.245428] (-) TimerEvent: {}
+[35.345691] (-) TimerEvent: {}
+[35.445994] (-) TimerEvent: {}
+[35.546294] (-) TimerEvent: {}
+[35.646599] (-) TimerEvent: {}
+[35.746976] (-) TimerEvent: {}
+[35.847339] (-) TimerEvent: {}
+[35.948006] (-) TimerEvent: {}
+[36.017987] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[36.025876] (my_gesture_arm_robot) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[36.048128] (-) TimerEvent: {}
+[36.049280] (my_gesture_arm_robot) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[36.059029] (my_gesture_arm_robot) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[36.079815] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[36.080342] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[36.080671] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[36.081733] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[36.082753] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[36.082952] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)\n'}
+[36.083279] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[36.148224] (-) TimerEvent: {}
+[36.248594] (-) TimerEvent: {}
+[36.348918] (-) TimerEvent: {}
+[36.449211] (-) TimerEvent: {}
+[36.549806] (-) TimerEvent: {}
+[36.650256] (-) TimerEvent: {}
+[36.750544] (-) TimerEvent: {}
+[36.850867] (-) TimerEvent: {}
+[36.951296] (-) TimerEvent: {}
+[37.051730] (-) TimerEvent: {}
+[37.152110] (-) TimerEvent: {}
+[37.252480] (-) TimerEvent: {}
+[37.352821] (-) TimerEvent: {}
+[37.453180] (-) TimerEvent: {}
+[37.528684] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[37.548043] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[37.549281] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[37.553345] (-) TimerEvent: {}
+[37.653722] (-) TimerEvent: {}
+[37.754059] (-) TimerEvent: {}
+[37.854437] (-) TimerEvent: {}
+[37.954863] (-) TimerEvent: {}
+[38.055303] (-) TimerEvent: {}
+[38.155640] (-) TimerEvent: {}
+[38.256139] (-) TimerEvent: {}
+[38.356512] (-) TimerEvent: {}
+[38.456851] (-) TimerEvent: {}
+[38.557154] (-) TimerEvent: {}
+[38.657547] (-) TimerEvent: {}
+[38.757860] (-) TimerEvent: {}
+[38.858253] (-) TimerEvent: {}
+[38.958756] (-) TimerEvent: {}
+[39.059103] (-) TimerEvent: {}
+[39.159485] (-) TimerEvent: {}
+[39.161189] (my_gesture_arm_robot) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[39.161662] (my_gesture_arm_robot) StderrLine: {'line': b'  By not providing "Findlaunch_ros.cmake" in CMAKE_MODULE_PATH this project\n'}
+[39.161791] (my_gesture_arm_robot) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[39.161876] (my_gesture_arm_robot) StderrLine: {'line': b'  "launch_ros", but CMake did not find one.\n'}
+[39.161957] (my_gesture_arm_robot) StderrLine: {'line': b'\n'}
+[39.162036] (my_gesture_arm_robot) StderrLine: {'line': b'  Could not find a package configuration file provided by "launch_ros" with\n'}
+[39.162111] (my_gesture_arm_robot) StderrLine: {'line': b'  any of the following names:\n'}
+[39.162182] (my_gesture_arm_robot) StderrLine: {'line': b'\n'}
+[39.162252] (my_gesture_arm_robot) StderrLine: {'line': b'    launch_rosConfig.cmake\n'}
+[39.162321] (my_gesture_arm_robot) StderrLine: {'line': b'    launch_ros-config.cmake\n'}
+[39.162390] (my_gesture_arm_robot) StderrLine: {'line': b'\n'}
+[39.162458] (my_gesture_arm_robot) StderrLine: {'line': b'  Add the installation prefix of "launch_ros" to CMAKE_PREFIX_PATH or set\n'}
+[39.162528] (my_gesture_arm_robot) StderrLine: {'line': b'  "launch_ros_DIR" to a directory containing one of the above files.  If\n'}
+[39.162596] (my_gesture_arm_robot) StderrLine: {'line': b'  "launch_ros" provides a separate development package or SDK, be sure it has\n'}
+[39.162664] (my_gesture_arm_robot) StderrLine: {'line': b'  been installed.\n'}
+[39.162734] (my_gesture_arm_robot) StderrLine: {'line': b'\n'}
+[39.162803] (my_gesture_arm_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[39.162874] (my_gesture_arm_robot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[39.162951] (my_gesture_arm_robot) StdoutLine: {'line': b'See also "/home/aniketh05/my_ros2_ws/build/my_gesture_arm_robot/CMakeFiles/CMakeOutput.log".\n'}
+[39.170997] (my_gesture_arm_robot) CommandEnded: {'returncode': 1}
+[39.183563] (my_gesture_arm_robot) JobEnded: {'identifier': 'my_gesture_arm_robot', 'rc': 1}
+[39.194363] (-) EventReactorShutdown: {}

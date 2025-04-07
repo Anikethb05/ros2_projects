@@ -315,17 +315,17 @@ my_msg_srv__rosidl_typesupport_cpp/fast:
 .PHONY : my_msg_srv__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_my_msg_srv
+# Target rules for targets named ament_cmake_python_symlink_my_msg_srv
 
 # Build rule for target.
-ament_cmake_python_copy_my_msg_srv: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_my_msg_srv
-.PHONY : ament_cmake_python_copy_my_msg_srv
+ament_cmake_python_symlink_my_msg_srv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_my_msg_srv
+.PHONY : ament_cmake_python_symlink_my_msg_srv
 
 # fast build rule for target.
-ament_cmake_python_copy_my_msg_srv/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_my_msg_srv.dir/build.make CMakeFiles/ament_cmake_python_copy_my_msg_srv.dir/build
-.PHONY : ament_cmake_python_copy_my_msg_srv/fast
+ament_cmake_python_symlink_my_msg_srv/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_my_msg_srv.dir/build.make CMakeFiles/ament_cmake_python_symlink_my_msg_srv.dir/build
+.PHONY : ament_cmake_python_symlink_my_msg_srv/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_my_msg_srv_egg
@@ -1067,7 +1067,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_my_msg_srv_egg"
-	@echo "... ament_cmake_python_copy_my_msg_srv"
+	@echo "... ament_cmake_python_symlink_my_msg_srv"
 	@echo "... my_msg_srv"
 	@echo "... my_msg_srv__cpp"
 	@echo "... my_msg_srv__py"

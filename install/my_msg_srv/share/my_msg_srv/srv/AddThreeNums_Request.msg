@@ -1,3 +1,1 @@
-float64 a
-float64 b
-float64 c
+/home/aniketh05/my_ros2_ws/build/my_msg_srv/rosidl_cmake/srv/AddThreeNums_Request.msg

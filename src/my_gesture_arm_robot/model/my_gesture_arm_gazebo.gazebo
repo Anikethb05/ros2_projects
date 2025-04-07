@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gazebo>
+  <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+    <robotNamespace>/gesture_arm</robotNamespace>
+  </plugin>
+</gazebo>

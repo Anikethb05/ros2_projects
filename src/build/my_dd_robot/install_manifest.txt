@@ -1,0 +1,15 @@
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/ament_index/resource_index/package_run_dependencies/my_dd_robot
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/ament_index/resource_index/parent_prefix_path/my_dd_robot
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/environment/ament_prefix_path.sh
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/environment/ament_prefix_path.dsv
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/environment/path.sh
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/environment/path.dsv
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/local_setup.bash
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/local_setup.sh
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/local_setup.zsh
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/local_setup.dsv
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/package.dsv
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/ament_index/resource_index/packages/my_dd_robot
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/cmake/my_dd_robotConfig.cmake
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/cmake/my_dd_robotConfig-version.cmake
+/home/aniketh05/my_ros2_ws/src/install/my_dd_robot/share/my_dd_robot/package.xml

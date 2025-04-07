@@ -1,0 +1,33 @@
+[2.051s] Invoking command in '/home/aniketh05/my_ros2_ws/build/my_pkg_prac': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build --no-deps symlink_data
+[2.878s] running develop
+[3.041s] /home/aniketh05/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[3.042s]   warnings.warn(
+[3.436s] running egg_info
+[3.436s] creating my_pkg_prac.egg-info
+[3.439s] writing my_pkg_prac.egg-info/PKG-INFO
+[3.440s] writing dependency_links to my_pkg_prac.egg-info/dependency_links.txt
+[3.441s] writing entry points to my_pkg_prac.egg-info/entry_points.txt
+[3.443s] writing requirements to my_pkg_prac.egg-info/requires.txt
+[3.444s] writing top-level names to my_pkg_prac.egg-info/top_level.txt
+[3.446s] writing manifest file 'my_pkg_prac.egg-info/SOURCES.txt'
+[3.456s] reading manifest file 'my_pkg_prac.egg-info/SOURCES.txt'
+[3.457s] writing manifest file 'my_pkg_prac.egg-info/SOURCES.txt'
+[3.457s] running build_ext
+[3.457s] Creating /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages/my-pkg-prac.egg-link (link to .)
+[3.457s] Installing move_circular script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[3.458s] Installing my_pose_sub script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[3.458s] Installing my_pub_node script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[3.459s] Installing pen_change script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[3.460s] Installing pub script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[3.461s] Installing pub_sub_node script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[3.462s] Installing shape script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[3.462s] Installing sub script to /home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/my_pkg_prac
+[3.463s] 
+[3.463s] Installed /home/aniketh05/my_ros2_ws/build/my_pkg_prac
+[3.464s] running symlink_data
+[3.465s] creating /home/aniketh05/my_ros2_ws/install/my_pkg_prac/share/ament_index
+[3.465s] creating /home/aniketh05/my_ros2_ws/install/my_pkg_prac/share/ament_index/resource_index
+[3.465s] creating /home/aniketh05/my_ros2_ws/install/my_pkg_prac/share/ament_index/resource_index/packages
+[3.465s] symbolically linking /home/aniketh05/my_ros2_ws/build/my_pkg_prac/resource/my_pkg_prac -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/share/ament_index/resource_index/packages
+[3.466s] symbolically linking /home/aniketh05/my_ros2_ws/build/my_pkg_prac/package.xml -> /home/aniketh05/my_ros2_ws/install/my_pkg_prac/share/my_pkg_prac
+[3.599s] Invoked command in '/home/aniketh05/my_ros2_ws/build/my_pkg_prac' returned '0': PYTHONPATH=/home/aniketh05/my_ros2_ws/build/my_pkg_prac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aniketh05/my_ros2_ws/install/my_pkg_prac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aniketh05/my_ros2_ws/build/my_pkg_prac/build --no-deps symlink_data

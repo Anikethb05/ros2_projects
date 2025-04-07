@@ -1,1 +1,1 @@
-float64 a
+/home/aniketh05/my_ros2_ws/src/my_msg_srv/msg/MyMsg.msg

@@ -1,0 +1,130 @@
+[0.047s] Invoking command in '/home/aniketh05/my_ros2_ws/build/my_gesture_arm_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/opt/ros/humble /usr/bin/cmake /home/aniketh05/my_ros2_ws/src/my_gesture_arm_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot
+[1.317s] -- The C compiler identification is GNU 11.4.0
+[1.317s] -- The CXX compiler identification is GNU 11.4.0
+[1.319s] -- Detecting C compiler ABI info
+[1.319s] -- Detecting C compiler ABI info - done
+[1.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.320s] -- Detecting C compile features
+[1.321s] -- Detecting C compile features - done
+[1.321s] -- Detecting CXX compiler ABI info
+[1.321s] -- Detecting CXX compiler ABI info - done
+[1.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.324s] -- Detecting CXX compile features
+[1.324s] -- Detecting CXX compile features - done
+[1.324s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.396s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.488s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.532s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.535s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.845s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.851s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.867s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.889s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.927s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.056s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.070s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.375s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.487s] -- Found FastRTPS: /opt/ros/humble/include  
+[15.955s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.969s] -- Looking for pthread.h
+[16.217s] -- Looking for pthread.h - found
+[16.217s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.455s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.456s] -- Found Threads: TRUE  
+[16.546s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[16.548s] -- Checking for module 'bullet>=2.82'
+[16.567s] --   Found bullet, version 3.05
+[16.827s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[16.894s] -- Found assimp: /usr/include (found version "5.2.0") 
+[16.922s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[16.960s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[17.604s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[17.610s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.617s] -- Searching for dependencies of ignition-math6
+[17.619s] -- Looking for OGRE...
+[17.620s] -- OGRE_PREFIX_WATCH changed.
+[17.626s] -- Checking for module 'OGRE'
+[17.641s] --   Found OGRE, version 1.9.0
+[17.688s] -- Found Ogre Ghadamon (1.9.0)
+[18.296s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[18.307s] -- Looking for OGRE_Paging...
+[18.924s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[18.924s] -- Looking for OGRE_Terrain...
+[19.421s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[19.421s] -- Looking for OGRE_Property...
+[20.066s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[20.066s] -- Looking for OGRE_RTShaderSystem...
+[20.719s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[20.719s] -- Looking for OGRE_Volume...
+[21.462s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[21.462s] -- Looking for OGRE_Overlay...
+[22.186s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[50.661s] -- Looking for ignition-math6 -- found version 6.15.1
+[50.662s] -- Looking for ignition-transport8 -- found version 8.2.1
+[50.663s] -- Searching for dependencies of ignition-transport8
+[52.246s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[54.796s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[54.806s] -- Checking for module 'libzmq >= 4'
+[54.835s] --   Found libzmq , version 4.3.4
+[54.918s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[55.018s] -- Checking for module 'uuid'
+[55.046s] --   Found uuid, version 2.37.2
+[55.107s] -- Found UUID: TRUE  
+[55.110s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[55.111s] -- Searching for dependencies of ignition-msgs5
+[57.200s] -- Looking for ignition-math6 -- found version 6.15.1
+[57.205s] -- Checking for module 'tinyxml2'
+[57.219s] --   Found tinyxml2, version 9.0.0
+[57.253s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[57.256s] -- Looking for ignition-common3 -- found version 3.14.0
+[57.256s] -- Searching for dependencies of ignition-common3
+[57.307s] -- Looking for dlfcn.h - found
+[57.360s] -- Looking for libdl - found
+[57.362s] -- Found DL: TRUE  
+[57.482s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[57.483s] -- Searching for <ignition-common3> component [graphics]
+[57.486s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[57.487s] -- Searching for dependencies of ignition-common3-graphics
+[57.489s] -- Looking for ignition-math6 -- found version 6.15.1
+[57.493s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[57.493s] -- Searching for dependencies of ignition-fuel_tools4
+[59.455s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[59.463s] -- Checking for module 'jsoncpp'
+[59.474s] --   Found jsoncpp, version 1.9.5
+[59.502s] -- Found JSONCPP: TRUE  
+[59.507s] -- Checking for module 'libzip'
+[59.519s] --   Found libzip, version 1.7.3
+[59.548s] -- Found ZIP: TRUE  
+[59.548s] -- Looking for ignition-common3 -- found version 3.14.0
+[59.549s] -- Looking for ignition-math6 -- found version 6.15.1
+[59.549s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[59.552s] -- Gazebo version: 11.10
+[59.552s] -- Checking for module 'tbb'
+[59.565s] --   Found tbb, version 2021.5.0
+[59.596s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[59.599s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[59.602s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[61.652s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[61.732s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[61.734s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[61.734s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[63.262s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[63.262s]   By not providing "Findlaunch_ros.cmake" in CMAKE_MODULE_PATH this project
+[63.262s]   has asked CMake to find a package configuration file provided by
+[63.262s]   "launch_ros", but CMake did not find one.
+[63.262s] 
+[63.262s]   Could not find a package configuration file provided by "launch_ros" with
+[63.262s]   any of the following names:
+[63.262s] 
+[63.262s]     launch_rosConfig.cmake
+[63.262s]     launch_ros-config.cmake
+[63.262s] 
+[63.262s]   Add the installation prefix of "launch_ros" to CMAKE_PREFIX_PATH or set
+[63.262s]   "launch_ros_DIR" to a directory containing one of the above files.  If
+[63.262s]   "launch_ros" provides a separate development package or SDK, be sure it has
+[63.262s]   been installed.
+[63.262s] 
+[63.263s] [0m
+[63.263s] -- Configuring incomplete, errors occurred!
+[63.263s] See also "/home/aniketh05/my_ros2_ws/build/my_gesture_arm_robot/CMakeFiles/CMakeOutput.log".
+[63.274s] Invoked command in '/home/aniketh05/my_ros2_ws/build/my_gesture_arm_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aniketh05/my_ros2_ws/install/turtle_control:/home/aniketh05/my_ros2_ws/install/my_services:/home/aniketh05/my_ros2_ws/install/my_pkg_prac:/home/aniketh05/my_ros2_ws/install/my_pkg_01:/opt/ros/humble /usr/bin/cmake /home/aniketh05/my_ros2_ws/src/my_gesture_arm_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aniketh05/my_ros2_ws/install/my_gesture_arm_robot

@@ -1,11 +1,1 @@
-setup.py
-my_msg_srv/__init__.py
-my_msg_srv.egg-info/PKG-INFO
-my_msg_srv.egg-info/SOURCES.txt
-my_msg_srv.egg-info/dependency_links.txt
-my_msg_srv.egg-info/top_level.txt
-my_msg_srv/msg/__init__.py
-my_msg_srv/msg/_my_msg.py
-my_msg_srv/msg/_sphere.py
-my_msg_srv/srv/__init__.py
-my_msg_srv/srv/_add_three_nums.py
+/home/aniketh05/my_ros2_ws/build/my_msg_srv/ament_cmake_python/my_msg_srv/my_msg_srv.egg-info/SOURCES.txt
